@@ -6,6 +6,7 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.* // Importa las funciones de layout
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.* // Importa los elementos materiales
+import androidx.compose.material3.Label
 import androidx.compose.ui.res.painterResource
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
@@ -76,7 +77,11 @@ fun LoginScreen() {
         // Botón de login
         Button(
             onClick = {
-                // Lógica de login aquí
+                if (email == "steven.josspa@gmail.com" && password == "123"){
+
+                }else{
+                    print("Error")
+                }
             },
             modifier = Modifier.fillMaxWidth()
         ) {
