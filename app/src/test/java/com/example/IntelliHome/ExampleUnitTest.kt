@@ -1,4 +1,4 @@
-package com.example.IntelliHome
+package com.example.intellihome
 
 import org.junit.Test
 
