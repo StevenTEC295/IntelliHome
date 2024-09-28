@@ -7,6 +7,8 @@ android {
     namespace = "com.example.intellihomeapp"
     compileSdk = 34
 
+
+
     defaultConfig {
         applicationId = "com.example.intellihomeapp"
         minSdk = 24
@@ -56,7 +58,13 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview:1.5.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation("androidx.compose.runtime:runtime-livedata:1.5.1")
+    implementation("androidx.compose.material:material:1.5.1")
+
     implementation(libs.androidx.material3.android)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit.jupiter)
     testImplementation(libs.testng)
 
