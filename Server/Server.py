@@ -14,8 +14,8 @@ class Server:
         self.root = tk.Tk()
         self.root.title("Servidor de IntelliHome")
 
-        self.chat_display = scrolledtext.ScrolledText(self.root, state='disabled', width=50, height=20)
-        self.chat_display.pack(pady=10)
+        self.display = scrolledtext.ScrolledText(self.root, state='disabled', width=50, height=20)
+        self.display.pack(pady=10)
 
         self.message_entry = tk.Entry(self.root, width=40)
         self.message_entry.pack(pady=5)
@@ -33,9 +33,9 @@ class Server:
         while True: # Este while es para siempre escuchar nuevos clientes
             client_socket, addr = self.server_socket.accept()
             self.clients.append(client_socket)
-            self.chat_display.config(state='normal')
-            self.chat_display.insert(tk.END, f"Conexión de {addr}\n")
-            self.chat_display.config(state='disabled')
+            self.display.config(state='normal')
+            self.display.insert(tk.END, f"Conexión de {addr}\n")
+            self.display.config(state='disabled')
             threading.Thread(target=self.handle_client, args=(client_socket,)).start() # Para que sea en hilo separado
 
     def handle_client(self, client_socket):
@@ -43,7 +43,9 @@ class Server:
             try:
                 message = client_socket.recv(1024).decode('utf-8') #recibe los mensajes
                 if message:
-                    self.broadcast(message, client_socket) # mandar mensaje a todo mundo 
+                    self.display.config(state='normal')
+                    self.display.insert(tk.END, f"Message: {message}\n")
+                    self.display.config(state='disabled')
                 else:
                     break
             except:
