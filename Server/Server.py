@@ -4,9 +4,10 @@ import tkinter as tk
 from tkinter import scrolledtext
 
 class Server:
-    def __init__(self, host='0.0.0.0', port=1717):
+    def __init__(self, host='192.168.3.101', port=8000):
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.server_socket.bind((host, port))
+        print(f"Servidor iniciado en {host}:{port}")
         self.server_socket.listen(5)
         self.clients = []
 
@@ -36,7 +37,7 @@ class Server:
             self.display.config(state='normal')
             self.display.insert(tk.END, f"Conexión de {addr}\n")
             self.display.config(state='disabled')
-            threading.Thread(target=self.handle_client, args=(client_socket,)).start() # Para que sea en hilo separado
+            #threading.Thread(target=self.handle_client, args=(client_socket,)).start() # Para que sea en hilo separado
 
     def handle_client(self, client_socket):
         while True: #Siempre estar atento a recibir mensajes de cualquier cliente
