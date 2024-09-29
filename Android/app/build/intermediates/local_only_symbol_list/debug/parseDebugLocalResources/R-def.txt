@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple
+color white
+drawable edit_text_background
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id Boton_registro
+id button
+id etHobbies
+id main
+id textView
+layout activity_login
+layout activity_registro
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.IntelliHome
+style Theme.IntelliHome
+xml backup_rules
+xml data_extraction_rules
