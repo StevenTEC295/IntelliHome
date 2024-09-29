@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        tools:context=".RegistroActivity">
+        tools:context=".Registro_propietarioActivity">
 
         <androidx.cardview.widget.CardView
             android:layout_width="400dp"
@@ -203,21 +203,6 @@
                         android:focusable="false"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
-                <EditText
-                    android:id="@+id/etHobbies"
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:hint="@string/ingresa_tus_hobbies"
-                    android:textColorHint="@color/black"
-                    android:maxLength="150"
-                    android:inputType="textMultiLine"
-                    android:background="@drawable/edit_text_background"
-                    android:padding="16dp"
-                    android:gravity="top|start"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:textColor="@color/black" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -297,52 +282,6 @@
                         android:maxLength="3"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
-                <com.google.android.material.textfield.TextInputLayout
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textColorHint="@color/black"
-                    app:boxCornerRadiusBottomEnd="10dp"
-                    app:boxCornerRadiusBottomStart="10dp"
-                    app:boxCornerRadiusTopEnd="10dp"
-                    app:boxCornerRadiusTopStart="10dp"
-                    app:boxStrokeColor="@color/black"
-                    app:boxStrokeWidth="4dp">
-
-                    <AutoCompleteTextView
-                        android:id="@+id/autocomplete_text_house"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="20dp"
-                        android:contentDescription="NULL"
-                        android:focusable="false"
-                        android:gravity="center"
-                        android:hint="@string/item_label"
-                        android:inputType="none"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        tools:ignore="EditableContentDescCheck" />
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textColorHint="@color/black"
-                    app:boxCornerRadiusBottomEnd="30dp"
-                    app:boxCornerRadiusBottomStart="30dp"
-                    app:boxCornerRadiusTopEnd="30dp"
-                    app:boxCornerRadiusTopStart="30dp"
-                    app:boxStrokeColor="@color/black"
-                    app:boxStrokeWidth="3dp">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/transporte"
-                        android:layout_margin="10dp"
-                        android:textColor="@color/black"/>
-                </com.google.android.material.textfield.TextInputLayout>
-
                 <EditText
                     android:id="@+id/Direccion"
                     android:layout_width="match_parent"
@@ -366,8 +305,6 @@
                     android:backgroundTint="@color/white"
                     android:textColor="@color/black"
                     android:text="@string/registrarse" />
-
-
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -375,7 +312,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/registro_Huésped"
+            android:text="@string/registro_Propietario"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -385,3 +322,9 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
+
+
+
+
+
+
