@@ -15,7 +15,7 @@ public class SocketConnection {
             try {
 
                 // Cambiar a la dirección IP de su servidor
-                socket = new Socket("192.168.3.101", 8000);
+                socket = new Socket("192.168.0.207", 8585);
                 System.out.println("Conectado");
             } catch (Exception e) {
                 e.printStackTrace();

@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import scrolledtext
 
 class Server:
-    def __init__(self, host='192.168.3.101', port=8000):
+    def __init__(self, host='192.168.0.207', port=8585):
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.server_socket.bind((host, port))
         print(f"Servidor iniciado en {host}:{port}")
