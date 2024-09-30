@@ -3,10 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/IntelliHome.iml" filepath="$PROJECT_DIR$/.idea/modules/IntelliHome.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IntelliHome.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IntelliHome.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IntelliHome.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IntelliHome.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IntelliHome.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IntelliHome.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IntelliHome.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IntelliHome.app.unitTest.iml" />
     </modules>
   </component>
 </project>

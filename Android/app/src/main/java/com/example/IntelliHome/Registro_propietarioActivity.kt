@@ -14,7 +14,7 @@ class Registro_propietarioActivity : AppCompatActivity() {
     private lateinit var selectDate: TextInputEditText
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_registro_propietario)
+        setContentView(R.layout.activity_registro)
         selectDate = findViewById(R.id.selectDate)
         selectDate.setOnClickListener {
             showDatePickerDialog()

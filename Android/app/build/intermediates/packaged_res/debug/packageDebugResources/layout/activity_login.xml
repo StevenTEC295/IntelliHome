@@ -9,12 +9,24 @@
     tools:context=".LoginActivity">
 
     <Button
-        android:id="@+id/Boton_registro"
+        android:id="@+id/boton_registro_huesped"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Esto es un place holder para pasar a registro"
+        android:text="@string/registro_Huésped"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/boton_registro_propietario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registro_Propietario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="100dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

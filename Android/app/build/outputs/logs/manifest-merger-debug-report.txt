@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\steve\.gradle\caches\transforms-4\f940b623479780b9386fa91f263b8783\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\steve\.gradle\caches\transforms-4\3a72dd2ccb015f3ecdd5bdcda0745f24\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\steve\.gradle\caches\transforms-4\b37a71039f7c6b4a0944957b20860b7e\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -56,12 +56,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\steve\.gradle\caches\transform
 	xmlns:android
 		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.MANAGE_WIFI_INTERFACES
+ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:6:5-28:19
-INJECTED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:6:5-28:19
+ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:8:5-34:19
+INJECTED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:8:5-34:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\steve\.gradle\caches\transforms-4\f940b623479780b9386fa91f263b8783\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\steve\.gradle\caches\transforms-4\f940b623479780b9386fa91f263b8783\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\steve\.gradle\caches\transforms-4\3a72dd2ccb015f3ecdd5bdcda0745f24\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -83,45 +87,51 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\st
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\steve\.gradle\caches\transforms-4\4a0a0496eb9da8d20327d4ad817dc2e0\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:13:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:11:9-54
 	android:roundIcon
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:14:9-54
 	tools:targetApi
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:15:9-29
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:17:9-29
 	android:icon
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:14:9-49
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:16:9-49
 	android:dataExtractionRules
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:8:9-65
-activity#com.example.intellihome.RegistroActivity
-ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:16:9-18:40
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:10:9-65
+activity#com.example.intellihome.Register
+ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:18:13-37
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:17:13-45
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:19:13-37
+activity#com.example.intellihome.Registro_propietarioActivity
+ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:22:13-57
 activity#com.example.intellihome.LoginActivity
-ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:19:9-27:20
+ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:25:9-33:20
 	android:exported
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:21:13-36
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:20:13-42
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:26:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml:31:27-74
 uses-sdk
 INJECTED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\steve\OneDrive - Estudiantes ITCR\TEC\II Semestre\Principios de Modelado\Proyecto\IntelliHome\Android\app\src\main\AndroidManifest.xml

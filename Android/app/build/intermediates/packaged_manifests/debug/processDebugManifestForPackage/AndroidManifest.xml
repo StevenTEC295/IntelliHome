@@ -9,6 +9,7 @@
         android:targetSdkVersion="34" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_WIFI_INTERFACES" />
 
     <permission
         android:name="com.example.intellihome.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -30,7 +31,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.IntelliHome" >
         <activity
-            android:name="com.example.intellihome.RegistroActivity"
+            android:name="com.example.intellihome.Register"
+            android:exported="false" />
+        <activity
+            android:name="com.example.intellihome.Registro_propietarioActivity"
             android:exported="false" />
         <activity
             android:name="com.example.intellihome.LoginActivity"
