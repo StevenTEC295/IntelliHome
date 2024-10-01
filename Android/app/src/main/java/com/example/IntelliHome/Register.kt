@@ -8,6 +8,8 @@ import android.widget.*
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 import java.io.File
 import java.io.OutputStream
@@ -52,6 +54,9 @@ class RegistroActivity : AppCompatActivity() {
             Toast.makeText(this, "Item: $itemSelected", Toast.LENGTH_SHORT).show()
         }
 
+
+        val etcontrasena_huesped: TextInputEditText = findViewById(R.id.contrasena_huesped)
+        val etcontrasena_huesped_confirmar: TextInputEditText = findViewById(R.id.contrasena_huesped_confirmar)
         etNombre = findViewById(R.id.etNombre)
         btnRegistro = findViewById(R.id.button_res)
 
@@ -61,15 +66,26 @@ class RegistroActivity : AppCompatActivity() {
         val button_tomar_foto = findViewById<Button>(R.id.button_tomar_foto)
         imageUrl = createImageUri()
 
-//        btnRegistro.setOnClickListener {
-//            val nombre = etNombre.text.toString()
-//            if (nombre.isNotEmpty()) {
-//                // Ejecutar la conexión en un hilo separado para no bloquear la interfaz
-//                thread {
-//                    sendDataToServer("192.168.0.196", 8080, nombre)
-//                }
-//            }
-//        }
+        btnRegistro.setOnClickListener {
+            val contrasena = etcontrasena_huesped.text.toString()
+            val contrasena_confirmar = etcontrasena_huesped_confirmar.text.toString()
+            if (comprobarContrasena(contrasena)) {
+                if (contrasena == contrasena_confirmar ){
+                    Toast.makeText(this, getString(R.string.Mensaje_confirmacion_contras), Toast.LENGTH_SHORT).show()
+                }else{
+                    Toast.makeText(this, getString(R.string.Mensaje_contras_no_son_iguales), Toast.LENGTH_SHORT).show()
+                }
+            } else {
+                Toast.makeText(this, getString(R.string.Mensaje_contras_no_cumple_con_los_requsitos), Toast.LENGTH_SHORT).show()
+            }
+            /*val nombre = etNombre.text.toString()
+            if (nombre.isNotEmpty()) {
+                // Ejecutar la conexión en un hilo separado para no bloquear la interfaz
+                thread {
+                    sendDataToServer("192.168.0.196", 8080, nombre)
+                }
+            }*/
+        }
         // Set up click listeners
         button_subir_foto.setOnClickListener {
             pickImageGallery()
@@ -82,6 +98,23 @@ class RegistroActivity : AppCompatActivity() {
         selectDate = findViewById(R.id.selectDate)
         selectDate.setOnClickListener {
             showDatePickerDialog()
+        }
+        val floatingActionButton_contraseña = findViewById<FloatingActionButton>(R.id.floatingActionButton_contraseña)
+        floatingActionButton_contraseña.setOnClickListener {
+            val message = getString(R.string.Info_contrasena)
+            Snackbar.make(it, message, Snackbar.LENGTH_LONG)
+                .setAction("OK") {
+                }
+                .show()
+        }
+
+        val floatingActionButton_confimar_contrasena = findViewById<FloatingActionButton>(R.id.floatingActionButton_confimar_contrasena)
+        floatingActionButton_confimar_contrasena.setOnClickListener {
+            val message = getString(R.string.Info_contrasena)
+            Snackbar.make(it, message, Snackbar.LENGTH_LONG)
+                .setAction("OK") {
+                }
+                .show()
         }
     }
 
@@ -114,19 +147,23 @@ class RegistroActivity : AppCompatActivity() {
         return FileProvider.getUriForFile(this, "com.example.intellihome.FileProvider", image)
     }
 
-    /*private fun sendDataToServer(serverIp: String, serverPort: Int, message: String) {
-        try {
-            // Crear socket y conectar al servidor
-            val socket = Socket(serverIp, serverPort)
+    /*    private fun sendDataToServer(serverIp: String, serverPort: Int, message: String) {
+            try {
+                // Crear socket y conectar al servidor
+                val socket = Socket(serverIp, serverPort)
 
-            // Obtener el flujo de salida para enviar datos al servidor
-            val outputStream: OutputStream = socket.getOutputStream()
-            outputStream.write(message.toByteArray())
+                // Obtener el flujo de salida para enviar datos al servidor
+                val outputStream: OutputStream = socket.getOutputStream()
+                outputStream.write(message.toByteArray())
 
-            // Cerrar el socket una vez que se envían los datos
-            socket.close()
-        } catch (e: Exception) {
-            e.printStackTrace()
-        }
-    }*/
+                // Cerrar el socket una vez que se envían los datos
+                socket.close()
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }*/
+    private fun comprobarContrasena(contrasena: String): Boolean {
+        val patron = Regex("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\W).{8,}$")
+        return patron.matches(contrasena)
+    }
 }

@@ -3003,6 +3003,8 @@ int drawable design_password_eye 0x7f080085
 int drawable design_snackbar_background 0x7f080086
 int drawable discover 0x7f080087
 int drawable edit_text_background 0x7f080088
+int drawable fondo_color_rojo 0x7f0800ed
+int drawable fondo_color_verde 0x7f0800ee
 int drawable ic_arrow_back_black_24 0x7f080089
 int drawable ic_call_answer 0x7f08008a
 int drawable ic_call_answer_low 0x7f08008b
@@ -3097,6 +3099,7 @@ int drawable notification_template_icon_bg 0x7f0800e3
 int drawable notification_template_icon_low_bg 0x7f0800e4
 int drawable notification_tile_bg 0x7f0800e5
 int drawable notify_panel_notification_icon_bg 0x7f0800e6
+int drawable question_mark 0x7f0800ef
 int drawable tarjetas_credito 0x7f0800e7
 int drawable test_level_drawable 0x7f0800e8
 int drawable tooltip_frame_dark 0x7f0800e9
@@ -3234,6 +3237,7 @@ int id clockwise 0x7f090081
 int id closest 0x7f090082
 int id collapseActionView 0x7f090083
 int id compress 0x7f090084
+int id confimar_cotra_propietario 0x7f090208
 int id confirm_button 0x7f090085
 int id constraint 0x7f090086
 int id container 0x7f090087
@@ -3241,8 +3245,11 @@ int id content 0x7f090088
 int id contentPanel 0x7f090089
 int id contiguous 0x7f09008a
 int id continuousVelocity 0x7f09008b
+int id contrasena_huesped 0x7f090209
+int id contrasena_huesped_confirmar 0x7f09020a
 int id coordinator 0x7f09008c
 int id cos 0x7f09008d
+int id cotra_propietario 0x7f09020b
 int id counterclockwise 0x7f09008e
 int id cradle 0x7f09008f
 int id currentState 0x7f090090
@@ -3310,6 +3317,8 @@ int id fitXY 0x7f0900cd
 int id fixed 0x7f0900ce
 int id flip 0x7f0900cf
 int id floating 0x7f0900d0
+int id floatingActionButton_confimar_contrasena 0x7f09020c
+int id floatingActionButton_contraseña 0x7f09020d
 int id forever 0x7f0900d1
 int id foto_de_perfil 0x7f0900d2
 int id foto_de_perfil_propietario 0x7f0900d3
@@ -3821,6 +3830,10 @@ int layout support_simple_spinner_dropdown_item 0x7f0c006e
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
 int plurals mtrl_badge_content_description 0x7f0f0000
+int string Info_contrasena 0x7f1000bb
+int string Mensaje_confirmacion_contras 0x7f1000bc
+int string Mensaje_contras_no_cumple_con_los_requsitos 0x7f1000bd
+int string Mensaje_contras_no_son_iguales 0x7f1000be
 int string Tomar_Foto 0x7f100000
 int string abc_action_bar_home_description 0x7f100001
 int string abc_action_bar_up_description 0x7f100002

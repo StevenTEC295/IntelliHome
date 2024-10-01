@@ -21,6 +21,11 @@
     <string name="registro_Huésped">Guest Registration</string>
     <string name="registro_Propietario">Owner Registration</string>
     <string name="Tomar_Foto">Take Photo</string>
+    <string name="Info_contrasena">1 lowercase letter and 1 uppercase letter, 1 digit, 1 special character, maximum 8 characters</string>
+    <string name="Mensaje_confirmacion_contras">The password is valid.</string>
+    <string name="Mensaje_contras_no_son_iguales">The passwords do not match.</string>
+    <string name="Mensaje_contras_no_cumple_con_los_requsitos">The password does not meet the requirements.</string>
+
 
     <string-array name="house_types">
         <item>Rustic</item>
