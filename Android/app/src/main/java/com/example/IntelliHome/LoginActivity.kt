@@ -13,7 +13,7 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-        val btn1 = findViewById<Button>(R.id.boton_registro_huesped)
+        val btn1 = findViewById<Button>(R.id.boton_crear_cuenta)
         btn1.setOnClickListener {
             val socket =  SocketConnection();
             socket.startConnection();
