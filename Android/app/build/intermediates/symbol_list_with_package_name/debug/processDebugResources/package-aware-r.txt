@@ -77,6 +77,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array house_types
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -3023,6 +3024,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable icono_perfil
 drawable indeterminate_static
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3195,6 +3197,8 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id boton_cambiar_espanol
+id boton_cambiar_ingles
 id boton_registro_huesped
 id boton_registro_propietario
 id bottom
@@ -3202,9 +3206,12 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
 id buttonPanel
 id button_res
+id button_subir_foto
+id button_subir_foto_propietario
+id button_tomar_foto
+id button_tomar_foto_propietario
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3287,6 +3294,7 @@ id enterAlways
 id enterAlwaysCollapsed
 id escape
 id etHobbies
+id etNombre
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3304,6 +3312,8 @@ id fixed
 id flip
 id floating
 id forever
+id foto_de_perfil
+id foto_de_perfil_propietario
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -3727,8 +3737,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
-layout activity_register
 layout activity_registro
+layout activity_registro_propietario
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3812,6 +3822,7 @@ layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string Tomar_Foto
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -5281,3 +5292,4 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml file_paths

@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array house_types
 color beige_arena
 color black
 color white
@@ -7,25 +8,35 @@ drawable discover
 drawable edit_text_background
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable icono_perfil
 drawable tarjetas_credito
 id Direccion
 id autocomplete_text_house
+id boton_cambiar_espanol
+id boton_cambiar_ingles
 id boton_registro_huesped
 id boton_registro_propietario
-id button
 id button_res
+id button_subir_foto
+id button_subir_foto_propietario
+id button_tomar_foto
+id button_tomar_foto_propietario
 id etHobbies
+id etNombre
+id foto_de_perfil
+id foto_de_perfil_propietario
 id imageView
 id main
 id selectDate
 id textView
 id textView2
 layout activity_login
-layout activity_register
 layout activity_registro
+layout activity_registro_propietario
 layout list_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+string Tomar_Foto
 string apellidos
 string app_name
 string confirmar_contrasena
@@ -50,3 +61,4 @@ style Base.Theme.IntelliHome
 style Theme.IntelliHome
 xml backup_rules
 xml data_extraction_rules
+xml file_paths

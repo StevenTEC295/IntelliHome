@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="house_types">
+        <item>Rústica</item>
+        <item>Moderna</item>
+        <item>Mansion</item>
+    </string-array>
     <color name="beige_arena">#A09575</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="Tomar_Foto">Tomar Foto</string>
     <string name="apellidos">Apellidos </string>
     <string name="app_name">IntelliHome</string>
     <string name="confirmar_contrasena">Confirmar Contraseña </string>

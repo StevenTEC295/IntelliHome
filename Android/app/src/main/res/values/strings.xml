@@ -19,4 +19,11 @@
     <string name="registrarse">Registrarse</string>
     <string name="registro_Huésped">Registro Huésped</string>
     <string name="registro_Propietario">Registro Propietario</string>
+    <string name="Tomar_Foto">Tomar Foto</string>
+
+    <string-array name="house_types">
+        <item>Rústica</item>
+        <item>Moderna</item>
+        <item>Mansion</item>
+    </string-array>
 </resources>
