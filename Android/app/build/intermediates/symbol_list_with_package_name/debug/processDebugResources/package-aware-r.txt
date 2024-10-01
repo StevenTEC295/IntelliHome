@@ -3195,8 +3195,9 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
-id boton_registro_huesped
-id boton_registro_propietario
+id boton_crear_cuenta
+id boton_login
+id boton_superior_izquierda
 id bottom
 id bounce
 id bounceBoth
@@ -3277,6 +3278,8 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextEmail
+id editTextPassword
 id edit_query
 id edit_text_id
 id elastic
@@ -3561,6 +3564,7 @@ id textStart
 id textTop
 id textView
 id textView2
+id textViewError
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
