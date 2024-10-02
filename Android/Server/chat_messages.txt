@@ -2,3 +2,5 @@ Cliente: {"nombre":"Palabras ","apellidos":"zjxjx","correo":"pab123758@gmail.com
 
 Cliente: {"nombre":"Pablo","apellidos":"dnfn","correo":"pab123758@gmail.com","username":"xjxj","password":"Rm@345t1","birhtdate":"1\/10\/2024","acountNumber":"1234567890","validuntil":"868686","cvc":"767","houseprefence":"Rústica"}
 
+Cliente: {"nombre":"xd","apellidos":"xd","correo":"a","username":"a","password":"xdR2223@","birhtdate":"1\/10\/2024","acountNumber":"122","validuntil":"885","cvc":"888","direccion":"c"}
+
