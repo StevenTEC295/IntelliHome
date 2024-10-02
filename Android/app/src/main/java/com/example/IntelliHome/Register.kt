@@ -12,11 +12,15 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 import org.json.JSONObject
+import java.io.BufferedReader
 import java.io.File
 import java.io.IOException
+import java.io.InputStream
+import java.io.InputStreamReader
 import java.io.OutputStream
 import java.io.PrintWriter
 import java.net.Socket
+import java.net.SocketTimeoutException
 import java.net.UnknownHostException
 import java.util.Scanner
 import kotlin.concurrent.thread
@@ -43,6 +47,8 @@ class RegistroActivity : AppCompatActivity() {
     private lateinit var etacountNumber: TextInputEditText
     private lateinit var etvalidunitl: TextInputEditText
     private lateinit var etcvc: TextInputEditText
+
+
 
     // Register for camera activity result
     private val cameraContract = registerForActivityResult(ActivityResultContracts.TakePicture()) {
@@ -147,7 +153,8 @@ class RegistroActivity : AppCompatActivity() {
         }
         //Esto codigo no es necesario ya que no ocupamos una conexion constante ni escuhar mensajes solo enviar
         /*thread {
-            try {
+            receiveDataFromServer("192.168.0.196", 8080)
+            *//*try {
                 // Cambiar a la dirección IP de su servidor
                 socket = Socket("192.168.0.196", 8080)
 
@@ -155,7 +162,7 @@ class RegistroActivity : AppCompatActivity() {
                 out_cliente = PrintWriter(socket.getOutputStream(), true)
                 input_server = Scanner(socket.getInputStream())
                 //No se ocupa escuhar datos por lo tanto no se implementa este thread
-                *//*thread {
+                thread {
                     try {
                         while (true) {
                             if (input_server.hasNextLine()) {
@@ -191,6 +198,10 @@ class RegistroActivity : AppCompatActivity() {
                     e.printStackTrace()
                 }
             }
+        }*/
+        //THREAD para escuhar datos no es necesario porque no estamos pidiendo datos pero esta como referencia
+        /*thread {
+            receiveDataFromServer("192.168.0.196", 8080)
         }*/
 
         // Set up click listeners
@@ -292,12 +303,37 @@ class RegistroActivity : AppCompatActivity() {
             outputStream.close()
             printWriter.close()
             socket.close()
-            println("Se cerro la conexion")
+            println("Se cerro la conexion - envio")
         } catch (e: Exception) {
             e.printStackTrace()
-            println("Error al enviar los datos")
+            println("Error al enviar los datos - envio")
         }
     }
+    /*private fun receiveDataFromServer(serverIp: String, serverPort: Int) {
+        try {
+            val socket = Socket(serverIp, serverPort)
+            val inputStream: InputStream = socket.getInputStream()
+            val bufferedReader = BufferedReader(InputStreamReader(inputStream))
+
+            // Escuchar mensajes en un bucle
+            while (true) {
+                val message = bufferedReader.readLine()
+                if (message != null) {
+                    println("Mensaje recibido: $message")
+                } else {
+                    break // Salir si no hay más mensajes
+                }
+            }
+            // Cerrar flujos y socket
+            bufferedReader.close()
+            inputStream.close()
+            socket.close()
+            println("Se cerró la conexión - eschucha")
+        } catch (e: Exception) {
+            e.printStackTrace()
+            println("Error al recibir los datos - eschuca")
+        }
+    }*/
 
     private fun comprobarContrasena(contrasena: String): Boolean {
         val patron = Regex("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\W).{8,}$")
