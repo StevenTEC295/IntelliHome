@@ -77,6 +77,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array house_types
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -3003,6 +3004,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable discover
 drawable edit_text_background
+drawable fondo_color_rojo
+drawable fondo_color_verde
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3023,6 +3026,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable icono_perfil
 drawable indeterminate_static
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3096,6 +3100,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable question_mark
 drawable tarjetas_credito
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3195,6 +3200,8 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id boton_cambiar_espanol
+id boton_cambiar_ingles
 id boton_registro_huesped
 id boton_registro_propietario
 id bottom
@@ -3202,9 +3209,12 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
 id buttonPanel
 id button_res
+id button_subir_foto
+id button_subir_foto_propietario
+id button_tomar_foto
+id button_tomar_foto_propietario
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3228,6 +3238,7 @@ id clockwise
 id closest
 id collapseActionView
 id compress
+id confimar_cotra_propietario
 id confirm_button
 id constraint
 id container
@@ -3235,8 +3246,11 @@ id content
 id contentPanel
 id contiguous
 id continuousVelocity
+id contrasena_huesped
+id contrasena_huesped_confirmar
 id coordinator
 id cos
+id cotra_propietario
 id counterclockwise
 id cradle
 id currentState
@@ -3286,7 +3300,14 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id escape
+id etApellidos
+id etCorreo
 id etHobbies
+id etNombre
+id etacountNumber
+id etcvc
+id etusername
+id etvalidunitl
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3303,7 +3324,11 @@ id fitXY
 id fixed
 id flip
 id floating
+id floatingActionButton_confimar_contrasena
+id floatingActionButton_contraseña
 id forever
+id foto_de_perfil
+id foto_de_perfil_propietario
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -3727,8 +3752,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
-layout activity_register
 layout activity_registro
+layout activity_registro_propietario
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3812,6 +3837,11 @@ layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string Info_contrasena
+string Mensaje_confirmacion_contras
+string Mensaje_contras_no_cumple_con_los_requsitos
+string Mensaje_contras_no_son_iguales
+string Tomar_Foto
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -5281,3 +5311,4 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml file_paths

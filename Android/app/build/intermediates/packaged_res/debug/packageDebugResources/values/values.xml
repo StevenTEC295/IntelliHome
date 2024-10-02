@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="house_types">
+        <item>Rústica</item>
+        <item>Moderna</item>
+        <item>Mansion</item>
+    </string-array>
     <color name="beige_arena">#A09575</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="Info_contrasena">1 letra minuscula y 1 mayuscula, 1 dígito, 1 caracter especial, 8 caracteres máximos</string>
+    <string name="Mensaje_confirmacion_contras">La contraseña es válida.</string>
+    <string name="Mensaje_contras_no_cumple_con_los_requsitos">La contraseña no cumple con los requisitos.</string>
+    <string name="Mensaje_contras_no_son_iguales">La contraseñas no son iguales.</string>
+    <string name="Tomar_Foto">Tomar Foto</string>
     <string name="apellidos">Apellidos </string>
     <string name="app_name">IntelliHome</string>
     <string name="confirmar_contrasena">Confirmar Contraseña </string>
