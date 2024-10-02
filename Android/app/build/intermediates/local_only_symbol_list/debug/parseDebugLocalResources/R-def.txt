@@ -32,6 +32,7 @@ id etApellidos
 id etCorreo
 id etHobbies
 id etNombre
+id etTransporte
 id etacountNumber
 id etcvc
 id etusername
@@ -55,6 +56,7 @@ string Info_contrasena
 string Mensaje_confirmacion_contras
 string Mensaje_contras_no_cumple_con_los_requsitos
 string Mensaje_contras_no_son_iguales
+string Mensaje_exito_registro
 string Tomar_Foto
 string apellidos
 string app_name

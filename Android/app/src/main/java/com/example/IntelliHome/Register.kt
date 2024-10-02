@@ -48,7 +48,9 @@ class RegistroActivity : AppCompatActivity() {
     private lateinit var etacountNumber: TextInputEditText
     private lateinit var etvalidunitl: TextInputEditText
     private lateinit var etcvc: TextInputEditText
-
+    private lateinit var etHobbies: EditText
+    private lateinit var etTransporte: TextInputEditText
+    private lateinit var etDireccion: EditText
 
 
     // Register for camera activity result
@@ -80,8 +82,7 @@ class RegistroActivity : AppCompatActivity() {
         }
 
         val etcontrasena_huesped: TextInputEditText = findViewById(R.id.contrasena_huesped)
-        val etcontrasena_huesped_confirmar: TextInputEditText =
-            findViewById(R.id.contrasena_huesped_confirmar)
+        val etcontrasena_huesped_confirmar: TextInputEditText = findViewById(R.id.contrasena_huesped_confirmar)
 
         etNombre = findViewById(R.id.etNombre)
         btnRegistro = findViewById(R.id.button_res)
@@ -92,38 +93,18 @@ class RegistroActivity : AppCompatActivity() {
         etacountNumber = findViewById(R.id.etacountNumber)
         etvalidunitl = findViewById(R.id.etvalidunitl)
         etcvc = findViewById(R.id.etcvc)
+        etHobbies = findViewById(R.id.etHobbies)
+        etTransporte = findViewById(R.id.etTransporte)
+        etDireccion= findViewById(R.id.Direccion)
+
         // Initialize UI components
         button_subir_foto = findViewById(R.id.button_subir_foto)
         imageView = findViewById(R.id.foto_de_perfil)
         val button_tomar_foto = findViewById<Button>(R.id.button_tomar_foto)
-        imageUrl = createImageUri()
+
 
         btnRegistro.setOnClickListener {
-            val contrasena = etcontrasena_huesped.text.toString()
-            val contrasena_confirmar = etcontrasena_huesped_confirmar.text.toString()
-            if (comprobarContrasena(contrasena)) {
-                if (contrasena == contrasena_confirmar) {
-                    Toast.makeText(
-                        this,
-                        getString(R.string.Mensaje_confirmacion_contras),
-                        Toast.LENGTH_SHORT
-                    ).show()
-                } else {
-                    Toast.makeText(
-                        this,
-                        getString(R.string.Mensaje_contras_no_son_iguales),
-                        Toast.LENGTH_SHORT
-                    ).show()
-                }
-            } else {
-                Toast.makeText(
-                    this,
-                    getString(R.string.Mensaje_contras_no_cumple_con_los_requsitos),
-                    Toast.LENGTH_SHORT
-                ).show()
-            }
-
-
+            // Obtener los datos de entrada
             val nombre = etNombre.text.toString()
             val correo = etCorreo.text.toString()
             val apellidos = etApellidos.text.toString()
@@ -133,25 +114,67 @@ class RegistroActivity : AppCompatActivity() {
             val etvalidunitl = etvalidunitl.text.toString()
             val etcvc = etcvc.text.toString()
             val autoComplete = autoComplete.text.toString()
-            if (nombre.isNotEmpty()) {
-                // Ejecutar la conexión en un hilo separado para no bloquear la interfaz
-                thread {
-                    val jsonData = createJsonData(
-                        nombre,
-                        apellidos,
-                        correo,
-                        username,
-                        contrasena,
-                        birthdate,
-                        etacountNumber,
-                        etvalidunitl,
-                        etcvc,
-                        autoComplete
-                    )
-                    sendDataToServer("192.168.0.196", 8080, jsonData)
-                }
+            val etHobbies = etHobbies.text.toString()
+            val etTransporte = etTransporte.text.toString()
+            val etDireccion = etDireccion.text.toString()
+            // Verificar que ningún campo esté vacío
+            val campos = listOf(nombre, correo, apellidos, username, birthdate, etacountNumber, etvalidunitl,
+                etcvc, autoComplete,etHobbies,etTransporte,etDireccion)
+            if (campos.any { it.isEmpty() }) {
+                Toast.makeText(this, "Completa todos los campos", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener // Salir del evento si hay campos vacíos
+            }
+
+            // Obtener las contraseñas
+            val contrasena = etcontrasena_huesped.text.toString()
+            val contrasena_confirmar = etcontrasena_huesped_confirmar.text.toString()
+
+            // Verificar la contraseña
+            if (!comprobarContrasena(contrasena)) {
+                Toast.makeText(
+                    this,
+                    getString(R.string.Mensaje_contras_no_cumple_con_los_requsitos),
+                    Toast.LENGTH_SHORT
+                ).show()
+                return@setOnClickListener // Salir del evento si la contraseña no cumple requisitos
+            }
+
+            if (contrasena != contrasena_confirmar) {
+                Toast.makeText(
+                    this,
+                    getString(R.string.Mensaje_contras_no_son_iguales),
+                    Toast.LENGTH_SHORT
+                ).show()
+                return@setOnClickListener // Salir del evento si las contraseñas no coinciden
+            }
+
+            // Si esta correcto enviar datos al server
+            Toast.makeText(
+                this,
+                getString(R.string.Mensaje_exito_registro),
+                Toast.LENGTH_SHORT
+            ).show()
+
+            thread {
+                val jsonData = createJsonData(
+                    nombre,
+                    apellidos,
+                    correo,
+                    username,
+                    contrasena,
+                    birthdate,
+                    etacountNumber,
+                    etvalidunitl,
+                    etcvc,
+                    autoComplete,
+                    etHobbies,
+                    etTransporte,
+                    etDireccion
+                )
+                sendDataToServer(jsonData)
             }
         }
+
         //Esto codigo no es necesario ya que no ocupamos una conexion constante ni escuhar mensajes solo enviar
         /*thread {
             receiveDataFromServer("192.168.0.196", 8080)
@@ -218,6 +241,7 @@ class RegistroActivity : AppCompatActivity() {
         }
 
         button_tomar_foto.setOnClickListener {
+            imageUrl = createImageUri()
             cameraContract.launch(imageUrl)
         }
 
@@ -225,8 +249,7 @@ class RegistroActivity : AppCompatActivity() {
         selectDate.setOnClickListener {
             showDatePickerDialog()
         }
-        val floatingActionButton_contraseña =
-            findViewById<FloatingActionButton>(R.id.floatingActionButton_contraseña)
+        val floatingActionButton_contraseña = findViewById<FloatingActionButton>(R.id.floatingActionButton_contraseña)
         floatingActionButton_contraseña.setOnClickListener {
             val message = getString(R.string.Info_contrasena)
             Snackbar.make(it, message, Snackbar.LENGTH_LONG)
@@ -273,6 +296,9 @@ class RegistroActivity : AppCompatActivity() {
 
     private fun createImageUri(): Uri {
         val image = File(filesDir, "camara_photo.png")
+        if (image.exists()) {
+            image.delete()
+        }
         return FileProvider.getUriForFile(this, "com.example.intellihome.FileProvider", image)
     }
 
@@ -286,7 +312,10 @@ class RegistroActivity : AppCompatActivity() {
         acountNumber: String,
         validuntil: String,
         cvc: String,
-        houseprefence: String
+        houseprefence: String,
+        hobbies: String,
+        transporte: String,
+        direccion: String
     ): String {
         val json = JSONObject()
         json.put("nombre", nombre)
@@ -299,14 +328,18 @@ class RegistroActivity : AppCompatActivity() {
         json.put("validuntil", validuntil)
         json.put("cvc", cvc)
         json.put("houseprefence", houseprefence)
+        json.put("hobbie", hobbies)
+        json.put("transporte", transporte)
+        json.put("direccion", direccion)
         return json.toString()
     }
 
-    private fun sendDataToServer(serverIp: String, serverPort: Int, jsonData: String) {
+    private fun sendDataToServer(jsonData: String) {
         try {
            /* val socket = Socket(serverIp, serverPort)
             val outputStream: OutputStream = socket.getOutputStream()
             val printWriter = PrintWriter(outputStream, true)*/
+
             out_cliente.println(jsonData)
             outputStream.close()
             out_cliente.close()
@@ -342,7 +375,6 @@ class RegistroActivity : AppCompatActivity() {
             println("Error al recibir los datos - eschuca")
         }
     }*/
-
     private fun comprobarContrasena(contrasena: String): Boolean {
         val patron = Regex("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\W).{8,}$")
         return patron.matches(contrasena)

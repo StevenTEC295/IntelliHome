@@ -25,6 +25,7 @@
     <string name="Mensaje_confirmacion_contras">The password is valid.</string>
     <string name="Mensaje_contras_no_son_iguales">The passwords do not match.</string>
     <string name="Mensaje_contras_no_cumple_con_los_requsitos">The password does not meet the requirements.</string>
+    <string name="Mensaje_exito_registro">Valid Register</string>
 
 
     <string-array name="house_types">

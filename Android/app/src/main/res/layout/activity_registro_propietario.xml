@@ -85,6 +85,7 @@
                 app:boxStrokeWidth="3dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etNombre"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -106,6 +107,7 @@
                 app:boxStrokeWidth="3dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etApellidos"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -127,6 +129,7 @@
                 app:boxStrokeWidth="3dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etCorreo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -148,6 +151,7 @@
                 app:boxStrokeWidth="3dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etusername"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -300,6 +304,7 @@
                 app:boxStrokeWidth="3dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etacountNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -321,6 +326,7 @@
                 app:boxStrokeWidth="3dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etvalidunitl"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -342,6 +348,7 @@
                 app:boxStrokeWidth="3dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etcvc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
