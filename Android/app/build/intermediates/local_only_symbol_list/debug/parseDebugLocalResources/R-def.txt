@@ -43,6 +43,7 @@ id foto_de_perfil
 id foto_de_perfil_propietario
 id imageView
 id main
+id phonenumber
 id selectDate
 id textView
 id textView2
@@ -76,6 +77,7 @@ string registro_Huésped
 string registro_Propietario
 string subir_foto
 string tajertas_de_credito
+string telefono
 string transporte
 string valido_hasta
 style Base.Theme.IntelliHome

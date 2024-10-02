@@ -3485,6 +3485,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phonenumber
 id pin
 id position
 id postLayout
@@ -4028,6 +4029,7 @@ string side_sheet_behavior
 string status_bar_notification_info_overflow
 string subir_foto
 string tajertas_de_credito
+string telefono
 string transporte
 string valido_hasta
 style AlertDialog_AppCompat

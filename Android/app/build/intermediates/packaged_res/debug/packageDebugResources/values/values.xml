@@ -26,12 +26,13 @@
     <string name="item_label">Preferencias Casas</string>
     <string name="nombre">Nombre </string>
     <string name="nombre_de_usuario">Nombre de Usuario</string>
-    <string name="numero_de_cuenta">Número de Cuenta</string>
+    <string name="numero_de_cuenta">CR Número de cuenta IBAN</string>
     <string name="registrarse">Registrarse</string>
     <string name="registro_Huésped">Registro Huésped</string>
     <string name="registro_Propietario">Registro Propietario</string>
     <string name="subir_foto">Subir Foto</string>
     <string name="tajertas_de_credito">Tarjetas de Crédito </string>
+    <string name="telefono">Teléfono</string>
     <string name="transporte">Transporte</string>
     <string name="valido_hasta">Válido hasta</string>
     <style name="Base.Theme.IntelliHome" parent="Theme.Material3.DayNight.NoActionBar">

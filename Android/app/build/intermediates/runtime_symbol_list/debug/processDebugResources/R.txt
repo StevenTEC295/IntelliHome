@@ -3484,6 +3484,7 @@ int id path 0x7f090178
 int id pathRelative 0x7f090179
 int id peekHeight 0x7f09017a
 int id percent 0x7f09017b
+int id phonenumber 0x7f090216
 int id pin 0x7f09017c
 int id position 0x7f09017d
 int id postLayout 0x7f09017e
@@ -4027,6 +4028,7 @@ int string side_sheet_behavior 0x7f1000ba
 int string status_bar_notification_info_overflow 0x7f1000bb
 int string subir_foto 0x7f1000bc
 int string tajertas_de_credito 0x7f1000bd
+int string telefono 0x7f1000c0
 int string transporte 0x7f1000be
 int string valido_hasta 0x7f1000bf
 int style AlertDialog_AppCompat 0x7f110000
