@@ -17,7 +17,7 @@ data class Persona(val nombre: String, val edad: Int)
 class Register : AppCompatActivity() {
     private lateinit var selectDate: TextInputEditText
     override fun onCreate(savedInstanceState: Bundle?) {
-
+ 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro)
         var selectDate = findViewById<TextInputEditText>(R.id.selectDate)
