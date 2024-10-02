@@ -1,34 +1,22 @@
 package com.example.intellihome
 
+import android.os.Bundle
 import android.app.DatePickerDialog
 import android.icu.util.Calendar
-import android.net.Uri
-import android.os.Bundle
-import android.widget.*
-import androidx.activity.result.contract.ActivityResultContracts
+import android.service.autofill.OnClickAction
+import android.widget.Toast
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.FileProvider
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
+import androidx.appcompat.widget.SearchView.OnCloseListener
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.textfield.TextInputEditText
-import org.json.JSONObject
-import java.io.BufferedReader
-import java.io.File
-import java.io.IOException
-import java.io.InputStream
-import java.io.InputStreamReader
-import java.io.OutputStream
-import java.io.PrintWriter
-import java.net.Socket
-import java.net.SocketTimeoutException
-import java.net.UnknownHostException
-import java.util.Scanner
-import kotlin.concurrent.thread
-
-//El huesped
-
-class RegistroActivity : AppCompatActivity() {
+import com.google.gson.Gson
+// Definimos una data class en Kotlin
+data class Persona(val nombre: String, val edad: Int)
+class Register : AppCompatActivity() {
     private lateinit var selectDate: TextInputEditText
+
     private lateinit var imageView: ImageView
     private lateinit var button_subir_foto: Button
     private lateinit var imageUrl: Uri
@@ -66,7 +54,9 @@ class RegistroActivity : AppCompatActivity() {
             }
         }
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
+ 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro)
 
@@ -267,8 +257,8 @@ class RegistroActivity : AppCompatActivity() {
                 }
                 .show()
         }
-    }
 
+    }
     private fun showDatePickerDialog() {
         val c = Calendar.getInstance()
         val cDay = c.get(Calendar.DAY_OF_MONTH)
@@ -278,21 +268,19 @@ class RegistroActivity : AppCompatActivity() {
         val calendarDialog = DatePickerDialog(this,
             { _, year, month, dayOfMonth ->
                 val selectedDate = "$dayOfMonth/${month + 1}/$year"
-                textMessage(selectedDate)
+                textMessage("Fecha de nacimiento: $selectedDate")
                 selectDate.setText(selectedDate)
-            }, cYear, cMonth, cDay
-        )
+            }, cYear, cMonth, cDay)
         calendarDialog.show()
     }
-
     private fun textMessage(s: String) {
         Toast.makeText(this, s, Toast.LENGTH_SHORT).show()
     }
 
-    // Use the new contract to pick an image from the gallery
-    private fun pickImageGallery() {
-        galleryContract.launch("image/*")
-    }
+    fun registrar(){
+        // Crear una instancia de Gson
+        val gson = Gson()
+
 
     private fun createImageUri(): Uri {
         val image = File(filesDir, "camara_photo.png")
@@ -378,6 +366,7 @@ class RegistroActivity : AppCompatActivity() {
     private fun comprobarContrasena(contrasena: String): Boolean {
         val patron = Regex("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\W).{8,}$")
         return patron.matches(contrasena)
+
     }
 
 }
