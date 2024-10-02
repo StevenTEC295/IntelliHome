@@ -33,9 +33,10 @@ class RegistroActivity : AppCompatActivity() {
     private lateinit var button_subir_foto: Button
     private lateinit var imageUrl: Uri
 
-    /*private lateinit var socket: Socket
+    private lateinit var socket: Socket
     private lateinit var out_cliente: PrintWriter
-    private lateinit var input_server: Scanner*/
+    private lateinit var input_server: Scanner
+    private lateinit var outputStream: OutputStream
 
     //Variables del registro
     private lateinit var etNombre: TextInputEditText
@@ -203,6 +204,13 @@ class RegistroActivity : AppCompatActivity() {
         /*thread {
             receiveDataFromServer("192.168.0.196", 8080)
         }*/
+        thread {
+            socket = Socket("192.168.0.196", 8080)
+            outputStream = socket.getOutputStream()
+            out_cliente = PrintWriter(outputStream, true)
+            input_server = Scanner(socket.getInputStream())
+
+        }
 
         // Set up click listeners
         button_subir_foto.setOnClickListener {
@@ -296,12 +304,12 @@ class RegistroActivity : AppCompatActivity() {
 
     private fun sendDataToServer(serverIp: String, serverPort: Int, jsonData: String) {
         try {
-            val socket = Socket(serverIp, serverPort)
+           /* val socket = Socket(serverIp, serverPort)
             val outputStream: OutputStream = socket.getOutputStream()
-            val printWriter = PrintWriter(outputStream, true)
-            printWriter.println(jsonData)
+            val printWriter = PrintWriter(outputStream, true)*/
+            out_cliente.println(jsonData)
             outputStream.close()
-            printWriter.close()
+            out_cliente.close()
             socket.close()
             println("Se cerro la conexion - envio")
         } catch (e: Exception) {
