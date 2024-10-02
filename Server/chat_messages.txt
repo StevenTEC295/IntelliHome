@@ -1,0 +1,4 @@
+Cliente: {"nombre":"Palabras ","apellidos":"zjxjx","correo":"pab123758@gmail.com","username":"djxnn12","password":"Rm@345t1","birhtdate":"1\/10\/2001","acountNumber":"1234567890","validuntil":"16564","cvc":"464","houseprefence":"Moderna"}
+
+Cliente: {"nombre":"Pablo","apellidos":"dnfn","correo":"pab123758@gmail.com","username":"xjxj","password":"Rm@345t1","birhtdate":"1\/10\/2024","acountNumber":"1234567890","validuntil":"868686","cvc":"767","houseprefence":"Rústica"}
+

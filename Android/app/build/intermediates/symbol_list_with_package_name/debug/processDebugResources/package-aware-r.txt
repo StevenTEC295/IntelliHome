@@ -3300,8 +3300,14 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id escape
+id etApellidos
+id etCorreo
 id etHobbies
 id etNombre
+id etacountNumber
+id etcvc
+id etusername
+id etvalidunitl
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu

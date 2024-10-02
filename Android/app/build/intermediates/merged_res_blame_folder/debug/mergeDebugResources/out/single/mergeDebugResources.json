@@ -4,10 +4,6 @@
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/layout_activity_registro_propietario.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/layout/activity_registro_propietario.xml"
-    },
-    {
         "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -28,8 +24,12 @@
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/drawable_fondo_color_verde.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/drawable/fondo_color_verde.xml"
+        "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_fondo_color_verde.xml.flat",
+        "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\fondo_color_verde.xml"
+    },
+    {
+        "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_fondo_color_rojo.xml.flat",
+        "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\fondo_color_rojo.xml"
     },
     {
         "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
@@ -68,6 +68,10 @@
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\layout\\list_item.xml"
     },
     {
+        "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_question_mark.png.flat",
+        "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\question_mark.png"
+    },
+    {
         "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_icono_perfil.png.flat",
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\icono_perfil.png"
     },
@@ -92,16 +96,8 @@
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\xml\\file_paths.xml"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/drawable_question_mark.png.flat",
-        "source": "com.example.intellihome.app-main-33:/drawable/question_mark.png"
-    },
-    {
         "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\layout_activity_registro.xml.flat",
-        "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\layout\\activity_registro.xml"
     },
     {
         "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -116,7 +112,7 @@
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\tarjetas_credito.png"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/drawable_fondo_color_rojo.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/drawable/fondo_color_rojo.xml"
+        "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\layout_activity_registro.xml.flat",
+        "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\layout\\activity_registro.xml"
     }
 ]

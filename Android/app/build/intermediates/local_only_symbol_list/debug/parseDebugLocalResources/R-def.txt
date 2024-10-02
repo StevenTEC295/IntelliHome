@@ -28,8 +28,14 @@ id confimar_cotra_propietario
 id contrasena_huesped
 id contrasena_huesped_confirmar
 id cotra_propietario
+id etApellidos
+id etCorreo
 id etHobbies
 id etNombre
+id etacountNumber
+id etcvc
+id etusername
+id etvalidunitl
 id floatingActionButton_confimar_contrasena
 id floatingActionButton_contraseña
 id foto_de_perfil
