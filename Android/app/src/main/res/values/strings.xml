@@ -26,6 +26,7 @@
     <string name="Mensaje_contras_no_cumple_con_los_requsitos">La contraseña no cumple con los requisitos.</string>
     <string name="Mensaje_exito_registro">Registro exisitoso</string>
     <string name="telefono">Teléfono</string>
+    <string name="completa_los_campos">Completa todos los campos</string>
     <string-array name="house_types">
         <item>Rústica</item>
         <item>Moderna</item>

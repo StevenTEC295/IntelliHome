@@ -9,6 +9,7 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
@@ -67,7 +68,7 @@ class Registro_propietarioActivity : AppCompatActivity() {
         //selectDate = findViewById(R.id.selectDate)
         button_subir_foto = findViewById(R.id.button_subir_foto_propietario)
         imageView = findViewById(R.id.foto_de_perfil_propietario)
-        val button_tomar_foto = findViewById<Button>(R.id.button_tomar_foto_propietario)
+        val button_tomar_foto = findViewById<ImageButton>(R.id.button_tomar_foto_propietario)
         imageUrl = createImageUri()
 
         // Set up click listeners
@@ -169,7 +170,7 @@ class Registro_propietarioActivity : AppCompatActivity() {
             val campos = listOf(firstName, email, lastName, username, birthdate, accountNumberInput, etvalidunitl,
                 etcvc,addressInput,phoneInput)
             if (campos.any { it.isEmpty() }) {
-                Toast.makeText(this, "Completa todos los campos", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.completa_los_campos), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener // Salir del evento si hay campos vacíos
             }
 

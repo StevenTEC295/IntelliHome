@@ -3893,6 +3893,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string completa_los_campos
 string confirmar_contrasena
 string contrasena
 string correo

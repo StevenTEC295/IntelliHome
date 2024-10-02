@@ -3892,6 +3892,7 @@ int string character_counter_content_description 0x7f100032
 int string character_counter_overflowed_content_description 0x7f100033
 int string character_counter_pattern 0x7f100034
 int string clear_text_end_icon_content_description 0x7f100035
+int string completa_los_campos 0x7f1000c1
 int string confirmar_contrasena 0x7f100036
 int string contrasena 0x7f100037
 int string correo 0x7f100038

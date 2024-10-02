@@ -60,3 +60,7 @@ Cliente: {"firstName":"a","lastName":"s","email":"pab123758@gmail.com","username
 
 Cliente: {"firstName":"zjdjzjz","lastName ":"zhshshdhsjh","email ":"pab123758@gmail.com","username":"zjzjzj","password":"Rm@f1233","birhtdate":"2\/10\/2024","acountNumber":" CR 46466464546767676767","validuntil":"2\/10\/2032","cvc":"161","houseprefence":"Rústica","hobbie":"zhzjjzjzjz","transport ":"snsnsbdbsbsbbzbzbzbzbzbzbBBsbb","address ":"djsbsjsbs","phone":" +506 86797979"}
 
+Cliente: {"firstName":"Paul ","lastName":"Ramos","email":"pablotec123@estudiantec.cr","username":"Paul11","password":"rT@12233","birhtdate":"2\/10\/1996","acountNumber":" CR 12345678900000000000","validuntil":"2\/10\/2026","cvc":"123","address":"dhdjdjdd","phone":" +506 87909744"}
+
+Cliente: {"firstName":"a","lastName ":"a","email ":"dkz","username":"dkz","password":"IO-ep39e","birhtdate":"2\/10\/2024","acountNumber":" CR 85689898988898989890","validuntil":"2\/10\/2031","cvc":"126","houseprefence":"Modern","hobbie":"wjwjsjsjdj","transport ":"zhzjdhdh","address ":"djdjdjdjjxsbsb","phone":" +506 12345678"}
+

@@ -61,6 +61,7 @@ string Mensaje_exito_registro
 string Tomar_Foto
 string apellidos
 string app_name
+string completa_los_campos
 string confirmar_contrasena
 string contrasena
 string correo

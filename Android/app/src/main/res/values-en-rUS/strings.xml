@@ -27,7 +27,7 @@
     <string name="Mensaje_contras_no_cumple_con_los_requsitos">The password does not meet the requirements.</string>
     <string name="Mensaje_exito_registro">Valid Register</string>
     <string name="telefono">Phone Number</string>
-
+    <string name="completa_los_campos">Complete all the spaces</string>
 
     <string-array name="house_types">
         <item>Rustic</item>

@@ -173,7 +173,7 @@ class RegistroActivity : AppCompatActivity() {
             val campos = listOf(firstName, email , lastName , username, birthdate, accountNumberInput, etvalidunitl,
                 etcvc, autoComplete,etHobbies,transportInput ,addressInput,phoneInput  )
             if (campos.any { it.isEmpty() }) {
-                Toast.makeText(this, "Completa todos los campos", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.completa_los_campos), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener // Salir del evento si hay campos vacíos
             }
 
