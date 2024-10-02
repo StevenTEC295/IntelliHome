@@ -181,17 +181,17 @@ class Registro_propietarioActivity : AppCompatActivity() {
                     etcvc,
                     etDireccion
                 )
-                sendDataToServer(jsonData)
+                sendDataToServer("192.168.0.196",8080,jsonData)
             }
         }
 
-        thread {
+        /*thread {
             socket = Socket("192.168.0.196", 8080)
             outputStream = socket.getOutputStream()
             out_cliente = PrintWriter(outputStream, true)
             input_server = Scanner(socket.getInputStream())
 
-        }
+        }*/
 
     }
 
@@ -251,15 +251,15 @@ class Registro_propietarioActivity : AppCompatActivity() {
     }
 
 
-    private fun sendDataToServer(jsonData: String) {
+    private fun sendDataToServer(serverIp: String, serverPort: Int,jsonData: String) {
         try {
-            /* val socket = Socket(serverIp, serverPort)
+             val socket = Socket(serverIp, serverPort)
              val outputStream: OutputStream = socket.getOutputStream()
-             val printWriter = PrintWriter(outputStream, true)*/
+             val printWriter = PrintWriter(outputStream, true)
 
-            out_cliente.println(jsonData)
+            printWriter.println(jsonData)
             outputStream.close()
-            out_cliente.close()
+            printWriter.close()
             socket.close()
             println("Se cerro la conexion - envio")
         } catch (e: Exception) {
