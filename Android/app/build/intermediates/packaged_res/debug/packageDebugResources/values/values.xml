@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="house_types">
+        <item>Rústica</item>
+        <item>Moderna</item>
+        <item>Mansion</item>
+    </string-array>
+    <string-array name="transport_types">
+        <item>Carro</item>
+        <item>Moto</item>
+        <item>Bicicleta</item>
+    </string-array>
     <color name="beige_arena">#A09575</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="Info_contrasena">1 letra minuscula y 1 mayuscula, 1 dígito, 1 caracter especial, 8 caracteres máximos</string>
+    <string name="Mensaje_confirmacion_contras">La contraseña es válida.</string>
+    <string name="Mensaje_contras_no_cumple_con_los_requsitos">La contraseña no cumple con los requisitos.</string>
+    <string name="Mensaje_contras_no_son_iguales">La contraseñas no son iguales.</string>
+    <string name="Mensaje_exito_registro">Registro exisitoso</string>
+    <string name="Tomar_Foto">Tomar Foto</string>
     <string name="apellidos">Apellidos </string>
     <string name="app_name">IntelliHome</string>
+    <string name="completa_los_campos">Completa todos los campos</string>
     <string name="confirmar_contrasena">Confirmar Contraseña </string>
     <string name="contrasena">Contraseña </string>
     <string name="correo">Correo </string>
@@ -15,14 +32,15 @@
     <string name="item_label">Preferencias Casas</string>
     <string name="nombre">Nombre </string>
     <string name="nombre_de_usuario">Nombre de Usuario</string>
-    <string name="numero_de_cuenta">Número de Cuenta</string>
+    <string name="numero_de_cuenta">CR Número de cuenta IBAN</string>
     <string name="registrarse">Registrarse</string>
     <string name="registro_Huésped">Registro Huésped</string>
     <string name="registro_Propietario">Registro Propietario</string>
     <string name="subir_foto">Subir Foto</string>
     <string name="tajertas_de_credito">Tarjetas de Crédito </string>
+    <string name="telefono">Teléfono</string>
     <string name="transporte">Transporte</string>
-    <string name="valido_hasta">Válido hasta</string>
+    <string name="valido_hasta">Fecha de Expiración</string>
     <style name="Base.Theme.IntelliHome" parent="Theme.Material3.DayNight.NoActionBar">
         
         

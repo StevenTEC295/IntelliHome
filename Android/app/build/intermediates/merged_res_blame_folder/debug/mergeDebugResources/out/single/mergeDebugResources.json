@@ -1,63 +1,31 @@
 [
     {
-        "merged": "com.example.intellihome.app-debug-31:/layout_list_item.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/layout/list_item.xml"
+        "merged": "com.example.intellihome.app-debug-31:/layout_activity_registro_propietario.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/layout/activity_registro_propietario.xml"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.intellihome.app-debug-31:/drawable_darkredbackground.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/darkredbackground.png"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/drawable_edit_text_background.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/drawable/edit_text_background.xml"
-    },
-    {
-        "merged": "com.example.intellihome.app-debug-31:/layout_activity_register.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/layout/activity_register.xml"
+        "merged": "com.example.intellihome.app-debug-31:/drawable_google.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/google.png"
     },
     {
         "merged": "com.example.intellihome.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
         "source": "com.example.intellihome.app-main-33:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.intellihome.app-debug-31:/drawable_icono_perfil.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/icono_perfil.png"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.intellihome.app-debug-31:/layout_activity_login.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/layout/activity_login.xml"
-    },
-    {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.intellihome.app-debug-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.intellihome.app-debug-31:/drawable_darkgreenbackground.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/darkgreenbackground.png"
     },
     {
         "merged": "com.example.intellihome.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.example.intellihome.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.intellihome.app-debug-31:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/xml/data_extraction_rules.xml"
     },
     {
         "merged": "com.example.intellihome.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -68,27 +36,171 @@
         "source": "com.example.intellihome.app-main-33:/drawable/tarjetas_credito.png"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/layout_activity_registro.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/layout/activity_registro.xml"
-    },
-    {
-        "merged": "com.example.intellihome.app-debug-31:/xml_backup_rules.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/xml/backup_rules.xml"
-    },
-    {
         "merged": "com.example.intellihome.app-debug-31:/drawable_discover.jpg.flat",
         "source": "com.example.intellihome.app-main-33:/drawable/discover.jpg"
-    },
-    {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "com.example.intellihome.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.example.intellihome.app-main-33:/mipmap-mdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_signo_depregunta.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/signo_depregunta.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_bluebackground.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/bluebackground.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/layout_activity_setting.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/layout/activity_setting.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.intellihome.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.intellihome.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/xml_file_paths.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/layout_activity_home_page.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/layout/activity_home_page.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_rounded_button_shape.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/rounded_button_shape.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_darkbluebackground.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/darkbluebackground.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_question_mark.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/question_mark.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_camara.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/camara.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_edit_text_background.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/edit_text_background.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_pinkbackground.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/pinkbackground.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_darkpinkbackground.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/darkpinkbackground.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_redbackground.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/redbackground.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/layout_activity_ayuda.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/layout/activity_ayuda.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.intellihome.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.intellihome.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/layout_activity_login.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.intellihome.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/layout_activity_customization.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/layout/activity_customization.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_ayuda.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/ayuda.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_fondo_color_verde.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/fondo_color_verde.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_facebook.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/facebook.png"
+    },
+    {
         "merged": "com.example.intellihome.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "com.example.intellihome.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/layout_list_item.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/layout/list_item.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_ajustes.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/ajustes.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_about.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/about.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/layout_activity_registro.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/layout/activity_registro.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/layout_activity_about.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_logo.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/xml_backup_rules.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_greenbackground.png.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/greenbackground.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.intellihome.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/layout_activity_tipo_usuario.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/layout/activity_tipo_usuario.xml"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/drawable_fondo_color_rojo.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/drawable/fondo_color_rojo.xml"
     }
 ]

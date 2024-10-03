@@ -28,12 +28,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.IntelliHome" >
+        android:theme="@style/Theme.IntelliHome"
+        android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.intellihome.Register"
+            android:name="com.example.IntelliHome.About"
+            android:exported="false" />
+        <activity
+            android:name="com.example.intellihome.Ayuda"
+            android:exported="false" />
+        <activity
+            android:name="com.example.intellihome.Customization"
+            android:exported="false" />
+        <activity
+            android:name="com.example.intellihome.Setting"
+            android:exported="false" />
+        <activity
+            android:name="com.example.intellihome.HomePage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.IntelliHome.TipoUsuario"
             android:exported="false" />
         <activity
             android:name="com.example.intellihome.Registro_propietarioActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.intellihome.RegistroActivity"
             android:exported="false" />
         <activity
             android:name="com.example.intellihome.LoginActivity"
@@ -45,6 +64,15 @@
             </intent-filter>
         </activity>
 
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.intellihome.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.intellihome.androidx-startup"
