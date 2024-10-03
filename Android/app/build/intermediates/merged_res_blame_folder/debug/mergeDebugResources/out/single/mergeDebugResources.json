@@ -1,94 +1,210 @@
 [
     {
-        "merged": "com.example.intellihome.app-debug-31:/layout_list_item.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/layout/list_item.xml"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/drawable_edit_text_background.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/drawable/edit_text_background.xml"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xhdpi_tarjetas_foreground.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xhdpi\\tarjetas_foreground.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/layout_activity_register.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/layout/activity_register.xml"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\logo.png"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xhdpi_tarjetas.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xhdpi\\tarjetas.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_darkgreenbackground.png.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\darkgreenbackground.png"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_rounded_button_shape.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\rounded_button_shape.xml"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-hdpi_tarjetas.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-hdpi\\tarjetas.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/layout_activity_login.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/layout/activity_login.xml"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_tarjetas_credito.png.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\tarjetas_credito.png"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\layout_activity_registro.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\layout\\activity_registro.xml"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_darkredbackground.png.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\darkredbackground.png"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxxhdpi_tarjetas.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxxhdpi\\tarjetas.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_darkpinkbackground.png.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\darkpinkbackground.png"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/drawable_tarjetas_credito.png.flat",
-        "source": "com.example.intellihome.app-main-33:/drawable/tarjetas_credito.png"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xhdpi_tarjetas_round.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xhdpi\\tarjetas_round.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/layout_activity_registro.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/layout/activity_registro.xml"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_redbackground.png.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\redbackground.png"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/xml_backup_rules.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_greenbackground.png.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\greenbackground.png"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/drawable_discover.jpg.flat",
-        "source": "com.example.intellihome.app-main-33:/drawable/discover.jpg"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxhdpi_tarjetas_foreground.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxhdpi\\tarjetas_foreground.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-mdpi_tarjetas.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-mdpi\\tarjetas.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.intellihome.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\layout_activity_customization.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\layout\\activity_customization.xml"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxxhdpi_tarjetas_foreground.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxxhdpi\\tarjetas_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_darkbluebackground.png.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\darkbluebackground.png"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_edit_text_background.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\edit_text_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxxhdpi_tarjetas_round.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxxhdpi\\tarjetas_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_discover.jpg.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\discover.jpg"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxhdpi_tarjetas_round.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxhdpi\\tarjetas_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/layout_activity_customization.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/layout/activity_customization.xml"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-anydpi-v26_tarjetas_round.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-anydpi-v26\\tarjetas_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-anydpi-v26_tarjetas.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-anydpi-v26\\tarjetas.xml"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxhdpi_tarjetas.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxhdpi\\tarjetas.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-hdpi_tarjetas_foreground.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-hdpi\\tarjetas_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-mdpi_tarjetas_foreground.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-mdpi\\tarjetas_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-hdpi_tarjetas_round.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-hdpi\\tarjetas_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-mdpi_tarjetas_round.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-mdpi\\tarjetas_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_bluebackground.png.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\bluebackground.png"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_pinkbackground.png.flat",
+        "source": "C:\\Users\\R\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\pinkbackground.png"
     }
 ]

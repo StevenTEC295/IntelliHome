@@ -2089,6 +2089,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2988,6 +2989,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bluebackground
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2996,6 +2998,10 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable darkbluebackground
+drawable darkgreenbackground
+drawable darkpinkbackground
+drawable darkredbackground
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3003,6 +3009,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable discover
 drawable edit_text_background
+drawable greenbackground
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3024,6 +3031,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable indeterminate_static
+drawable logo
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3096,6 +3104,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pinkbackground
+drawable redbackground
+drawable rounded_button_shape
 drawable tarjetas_credito
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3189,12 +3200,15 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id autocomplete_text_house
+id back_button
 id barrier
 id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id blue_card
+id blue_image
 id boton_registro_huesped
 id boton_registro_propietario
 id bottom
@@ -3202,6 +3216,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id box_title
 id button
 id buttonPanel
 id button_res
@@ -3227,6 +3242,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id color_container
 id compress
 id confirm_button
 id constraint
@@ -3312,6 +3328,8 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
+id green_card
+id green_image
 id group_divider
 id grouping
 id groups
@@ -3349,6 +3367,7 @@ id line3
 id linear
 id listMode
 id list_item
+id logo
 id m3_side_sheet
 id main
 id marquee
@@ -3379,6 +3398,7 @@ id matrix
 id message
 id middle
 id mini
+id mode_container
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3460,6 +3480,8 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pink_card
+id pink_image
 id position
 id postLayout
 id pressed
@@ -3468,6 +3490,8 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id red_card
+id red_image
 id report_drawn
 id reverseSawtooth
 id right
@@ -3575,6 +3599,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toggleMode
 id top
 id topPanel
 id touch_outside
@@ -3726,6 +3751,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_customization
 layout activity_login
 layout activity_register
 layout activity_registro
@@ -3811,6 +3837,9 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap tarjetas
+mipmap tarjetas_foreground
+mipmap tarjetas_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
