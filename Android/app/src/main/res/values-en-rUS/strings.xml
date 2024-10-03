@@ -13,7 +13,7 @@
     <string name="ingresa_tus_hobbies">Enter your hobbies</string>
     <string name="tajertas_de_credito">Credit Cards</string>
     <string name="numero_de_cuenta">CR IBAN Account Number</string>
-    <string name="valido_hasta">"Valid until "</string>
+    <string name="valido_hasta">"Expire Date "</string>
     <string name="cvc">CVC</string>
     <string name="transporte">Transport</string>
     <string name="ingresa_tu_dirección">"Enter your address "</string>

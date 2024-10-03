@@ -12,7 +12,7 @@
     <string name="ingresa_tus_hobbies">Ingresa tus hobbies </string>
     <string name="tajertas_de_credito">Tarjetas de Crédito </string>
     <string name="numero_de_cuenta">CR Número de cuenta IBAN</string>
-    <string name="valido_hasta">Válido hasta</string>
+    <string name="valido_hasta">Fecha de Expiración</string>
     <string name="cvc">CVC</string>
     <string name="transporte">Transporte</string>
     <string name="ingresa_tu_dirección">Ingresa tu dirección</string>
