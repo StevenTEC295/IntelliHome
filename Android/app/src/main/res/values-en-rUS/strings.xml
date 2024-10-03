@@ -34,4 +34,10 @@
         <item>Modern</item>
         <item>Mansion</item>
     </string-array>
+
+    <string-array name="transport_types">
+        <item>Car</item>
+        <item>Motorbike</item>
+        <item>Mansion</item>
+    </string-array>
 </resources>

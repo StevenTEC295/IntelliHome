@@ -32,4 +32,11 @@
         <item>Moderna</item>
         <item>Mansion</item>
     </string-array>
+
+
+    <string-array name="transport_types">
+        <item>Carro</item>
+        <item>Moto</item>
+        <item>Bicicleta</item>
+    </string-array>
 </resources>

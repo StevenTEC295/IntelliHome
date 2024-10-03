@@ -64,3 +64,9 @@ Cliente: {"firstName":"Paul ","lastName":"Ramos","email":"pablotec123@estudiante
 
 Cliente: {"firstName":"a","lastName ":"a","email ":"dkz","username":"dkz","password":"IO-ep39e","birhtdate":"2\/10\/2024","acountNumber":" CR 85689898988898989890","validuntil":"2\/10\/2031","cvc":"126","houseprefence":"Modern","hobbie":"wjwjsjsjdj","transport ":"zhzjdhdh","address ":"djdjdjdjjxsbsb","phone":" +506 12345678"}
 
+Cliente: {"firstName":"djdj","lastName ":"xnxn","email ":"pab123758@gmail.com","username":"Palv","password":"Rts$122w","birhtdate":"2\/10\/2001","acountNumber":" CR 12345679798989897979","validuntil":"2\/10\/2030","cvc":"464","houseprefence":"Moderna","hobbie":"shdhdhs","transport ":"Bicycle","address ":"shshshshsh","phone":" +506 12345678"}
+
+Cliente: {"firstName":"Pablo ","lastName ":"Ramos ","email ":"pab123758@gmail.com","username":"Pato","password":"Rts$122w","birhtdate":"2\/10\/2001","acountNumber":" CR 12345688998989889898","validuntil":"2\/10\/2001","cvc":"123","houseprefence":"Moderna","hobbie":"comer etcfjdjjdjdjdjdbdbdbdbdbdbdbdbdbdbxbbxbxbxbxbxbxbxbxbxbhxbxhdbdhdhdhdhsbbsbdshshshshshdhhxhxbxbxhxhxbxbxbbdbdbdbdbdbdbdbdbdbbdbdbdbdbdbdbdbdbbdb","transport ":"Carro","address ":"ahshshsh","phone":" +506 12345678"}
+
+Cliente: {"firstName":"Pablo ","lastName":"Ramos Madrigal","email":"pab123758@gmail.com","username":"Pablo","password":"Rts$122w","birhtdate":"2\/10\/1998","acountNumber":" CR 12313446646446466494","validuntil":"2\/10\/2026","cvc":"123","address":"haahahhahaahah","phone":" +506 12345678"}
+

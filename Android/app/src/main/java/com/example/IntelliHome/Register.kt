@@ -51,7 +51,6 @@ class RegistroActivity : AppCompatActivity() {
     private lateinit var etvalidunitl: TextInputEditText
     private lateinit var etcvc: TextInputEditText
     private lateinit var etHobbies: EditText
-    private lateinit var transportInput : TextInputEditText
     private lateinit var addressInput  : EditText
 
 
@@ -79,6 +78,16 @@ class RegistroActivity : AppCompatActivity() {
         val adapter = ArrayAdapter(this, R.layout.list_item, items)
         autoComplete.setAdapter(adapter)
         autoComplete.onItemClickListener = AdapterView.OnItemClickListener { adapterView, _, i, _ ->
+            val itemSelected = adapterView.getItemAtPosition(i)
+            Toast.makeText(this, "Item: $itemSelected", Toast.LENGTH_SHORT).show()
+        }
+
+
+        val itemTransport = resources.getStringArray(R.array.transport_types).toList()
+        val transport: AutoCompleteTextView = findViewById(R.id.autocomplete_transport)
+        val adapterTransport = ArrayAdapter(this,R.layout.list_item,itemTransport)
+        transport.setAdapter(adapterTransport)
+        transport.onItemClickListener = AdapterView.OnItemClickListener { adapterView, _, i, _ ->
             val itemSelected = adapterView.getItemAtPosition(i)
             Toast.makeText(this, "Item: $itemSelected", Toast.LENGTH_SHORT).show()
         }
@@ -140,18 +149,14 @@ class RegistroActivity : AppCompatActivity() {
         etvalidunitl = findViewById(R.id.etvalidunitl)
         etcvc = findViewById(R.id.etcvc)
         etHobbies = findViewById(R.id.etHobbies)
-        transportInput  = findViewById(R.id.etTransporte)
         addressInput  = findViewById(R.id.Direccion)
-
-
-
 
 
 
         // Initialize UI components
         btnUploadPhoto = findViewById(R.id.button_subir_foto)
         imageView = findViewById(R.id.foto_de_perfil)
-        val button_tomar_foto = findViewById<Button>(R.id.button_tomar_foto)
+        val button_tomar_foto = findViewById<ImageButton>(R.id.button_tomar_foto)
 
 
         registerButton.setOnClickListener {
@@ -166,12 +171,12 @@ class RegistroActivity : AppCompatActivity() {
             val etcvc = etcvc.text.toString()
             val autoComplete = autoComplete.text.toString()
             val etHobbies = etHobbies.text.toString()
-            val transportInput  = transportInput.text.toString()
+            val transportInput  = transport.text.toString()
             val addressInput   = addressInput.text.toString()
             val phoneInput = phoneInput.text.toString()
             // Verificar que ningún campo esté vacío
             val campos = listOf(firstName, email , lastName , username, birthdate, accountNumberInput, etvalidunitl,
-                etcvc, autoComplete,etHobbies,transportInput ,addressInput,phoneInput  )
+                etcvc, autoComplete,etHobbies,transportInput ,addressInput,phoneInput)
             if (campos.any { it.isEmpty() }) {
                 Toast.makeText(this, getString(R.string.completa_los_campos), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener // Salir del evento si hay campos vacíos

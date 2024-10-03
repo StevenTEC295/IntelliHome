@@ -77,6 +77,7 @@ int animator mtrl_fab_show_motion_spec 0x7f02001f
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f020020
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f020021
 int array house_types 0x7f030000
+int array transport_types 0x7f030001
 int attr SharedValue 0x7f040000
 int attr SharedValueId 0x7f040001
 int attr actionBarDivider 0x7f040002
@@ -2996,6 +2997,7 @@ int drawable btn_radio_off_mtrl 0x7f080080
 int drawable btn_radio_off_to_on_mtrl_animation 0x7f080081
 int drawable btn_radio_on_mtrl 0x7f080082
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f080083
+int drawable camara 0x7f0800f0
 int drawable design_fab_background 0x7f080084
 int drawable design_ic_visibility 0x7f080085
 int drawable design_ic_visibility_off 0x7f080086
@@ -3193,6 +3195,7 @@ int id autoComplete 0x7f090055
 int id autoCompleteToEnd 0x7f090056
 int id autoCompleteToStart 0x7f090057
 int id autocomplete_text_house 0x7f090058
+int id autocomplete_transport 0x7f090217
 int id barrier 0x7f090059
 int id baseline 0x7f09005a
 int id beginOnFirstDraw 0x7f09005b
@@ -3303,7 +3306,6 @@ int id etApellidos 0x7f0900c3
 int id etCorreo 0x7f0900c4
 int id etHobbies 0x7f0900c5
 int id etNombre 0x7f0900c6
-int id etTransporte 0x7f0900c7
 int id etacountNumber 0x7f0900c8
 int id etcvc 0x7f0900c9
 int id etusername 0x7f0900ca

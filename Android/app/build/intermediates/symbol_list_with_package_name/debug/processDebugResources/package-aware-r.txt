@@ -78,6 +78,7 @@ animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 array house_types
+array transport_types
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2997,6 +2998,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable camara
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3194,6 +3196,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id autocomplete_text_house
+id autocomplete_transport
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3304,7 +3307,6 @@ id etApellidos
 id etCorreo
 id etHobbies
 id etNombre
-id etTransporte
 id etacountNumber
 id etcvc
 id etusername

@@ -5,6 +5,11 @@
         <item>Moderna</item>
         <item>Mansion</item>
     </string-array>
+    <string-array name="transport_types">
+        <item>Carro</item>
+        <item>Moto</item>
+        <item>Bicicleta</item>
+    </string-array>
     <color name="beige_arena">#A09575</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
@@ -35,7 +40,7 @@
     <string name="tajertas_de_credito">Tarjetas de Crédito </string>
     <string name="telefono">Teléfono</string>
     <string name="transporte">Transporte</string>
-    <string name="valido_hasta">Válido hasta</string>
+    <string name="valido_hasta">Fecha de Expiración</string>
     <style name="Base.Theme.IntelliHome" parent="Theme.Material3.DayNight.NoActionBar">
         
         
