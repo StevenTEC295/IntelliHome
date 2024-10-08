@@ -1,6 +1,7 @@
 package com.example.intellihome
 
 import android.app.DatePickerDialog
+import android.content.Intent
 import android.icu.util.Calendar
 import android.net.Uri
 import android.os.Bundle
@@ -10,7 +11,7 @@ import android.widget.*
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
-import com.example.IntelliHome.ObsceneWords
+import com.example.intellihome.ObsceneWords
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
@@ -286,6 +287,9 @@ class RegistroActivity : AppCompatActivity() {
                     phoneInput
                 )
                 sendDataToServer("192.168.0.196", 8080,jsonData)
+                val intent = Intent(this, LoginActivity::class.java)
+                startActivity(intent)
+                finish()
             }
         }
 

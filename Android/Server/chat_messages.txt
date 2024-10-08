@@ -112,3 +112,17 @@ Cliente: {"action":"registro","firstName":"Pablo Ramos Madriga","lastName":"Ramo
 
 Cliente: {"action":"registro","firstName":"b","lastName":"a","email":"pab123758@gmail.com","username":"n","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 494949499797","validuntil":"14\/10\/2024","cvc":"471","houseprefence":"Rústica","hobbie":"io","transport":"Buseta","address":"dd,","phone":" +506 12349797"}
 
+Cliente: {"action":"registro","firstName":"A","lastName":"a","email":"pab123758@gmail.com","username":"a","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 616161646464","validuntil":"14\/10\/2024","cvc":"644","houseprefence":"Mansion","hobbie":"hzhshshshsh","transport":"Moto","address":"zgzzghs","phone":" +506 64646464"}
+
+Cliente: {"action":"registro","firstName":"A","lastName":"a","email":"pab123758@gmail.com","username":"a","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 616161646464","validuntil":"14\/10\/2024","cvc":"644","houseprefence":"Mansion","hobbie":"hzhshshshsh","transport":"Moto","address":"zgzzghs","phone":" +506 64646464"}
+
+Cliente: {"action":"registro","firstName":"A","lastName":"a","email":"pab123758@gmail.com","username":"a","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 616161646464","validuntil":"14\/10\/2024","cvc":"644","houseprefence":"Mansion","hobbie":"hzhshshshsh","transport":"Moto","address":"zgzzghs","phone":" +506 64646464"}
+
+Cliente: {"action":"registro","firstName":"d","lastName":"x","email":"c","username":"x","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 585888485858","validuntil":"14\/10\/2024","cvc":"505","address":"d ssxsxsx","phone":" +506 50505050"}
+
+Cliente: {"action":"registro","firstName":"x","lastName":"d","email":"x","username":"zzd","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 505050585850","validuntil":"14\/10\/2024","cvc":"804","houseprefence":"Mansion","hobbie":"xs,szsz","transport":"Sedán","address":"ssszsxsx","phone":" +506 58855050"}
+
+Cliente: {"action":"registro","firstName":"ndnsnsn","lastName":"ndnsnsn","email":"bxnsnxn","username":"pato ","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 987959794973","validuntil":"14\/10\/2024","cvc":"649","address":"zbzbbx","phone":" +506 95959593"}
+
+Cliente: {"action":"registro","firstName":"dnx","lastName":"fn","email":"ndns","username":"r","password":"x@R12345t","birhtdate":"7\/10\/2006","acountNumber":" CR 464646646464","validuntil":"14\/10\/2024","cvc":"644","address":"shshhshsh","phone":" +506 64166161"}
+

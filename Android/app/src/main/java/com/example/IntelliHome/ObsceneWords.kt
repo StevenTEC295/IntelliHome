@@ -1,4 +1,4 @@
-package com.example.IntelliHome
+package com.example.intellihome
 
 object ObsceneWords {
     //Lista proporcionada por: https://github.com/NeoRaidenX/Youtube-blacklist_comments/blob/master/blacklist_es

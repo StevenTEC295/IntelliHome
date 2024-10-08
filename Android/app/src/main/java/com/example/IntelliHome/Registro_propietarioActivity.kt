@@ -15,7 +15,6 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
-import com.example.IntelliHome.ObsceneWords
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
@@ -24,7 +23,6 @@ import java.io.File
 import java.io.OutputStream
 import java.io.PrintWriter
 import java.net.Socket
-import java.util.Scanner
 import kotlin.concurrent.thread
 
 class Registro_propietarioActivity : AppCompatActivity() {
@@ -288,6 +286,9 @@ class Registro_propietarioActivity : AppCompatActivity() {
                     phoneInput
                 )
                 sendDataToServer("192.168.0.196",8080,jsonData)
+                val intent = Intent(this, LoginActivity::class.java)
+                startActivity(intent)
+                finish()
             }
         }
 
