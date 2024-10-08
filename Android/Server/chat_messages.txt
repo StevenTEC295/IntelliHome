@@ -110,3 +110,5 @@ Cliente: {"action":"registro","firstName":"z","lastName":"x","email":"d","userna
 
 Cliente: {"action":"registro","firstName":"Pablo Ramos Madriga","lastName":"Ramos Madriga","email":"pab123758@gmail.com","username":"HIJUEPUT@","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 676464646464","validuntil":"14\/10\/2024","cvc":"466","address":"zbzhdbzhzh","phone":" +506 46464646"}
 
+Cliente: {"action":"registro","firstName":"b","lastName":"a","email":"pab123758@gmail.com","username":"n","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 494949499797","validuntil":"14\/10\/2024","cvc":"471","houseprefence":"Rústica","hobbie":"io","transport":"Buseta","address":"dd,","phone":" +506 12349797"}
+

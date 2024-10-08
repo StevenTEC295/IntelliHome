@@ -270,7 +270,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:hint="@string/telefono"
-                    android:inputType="phone"
+                    android:inputType="number"
                     android:maxLength="14"
                     android:textColor="@color/black" />
             </com.google.android.material.textfield.TextInputLayout>

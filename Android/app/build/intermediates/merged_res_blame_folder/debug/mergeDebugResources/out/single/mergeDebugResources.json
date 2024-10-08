@@ -4,10 +4,6 @@
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/layout_activity_registro_propietario.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/layout/activity_registro_propietario.xml"
-    },
-    {
         "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -78,6 +74,10 @@
     {
         "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_icono_perfil.png.flat",
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\icono_perfil.png"
+    },
+    {
+        "merged": "com.example.intellihome.app-debug-31:/layout_activity_registro.xml.flat",
+        "source": "com.example.intellihome.app-main-33:/layout/activity_registro.xml"
     },
     {
         "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_camara.png.flat",
