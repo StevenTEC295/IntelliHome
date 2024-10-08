@@ -70,3 +70,43 @@ Cliente: {"firstName":"Pablo ","lastName ":"Ramos ","email ":"pab123758@gmail.co
 
 Cliente: {"firstName":"Pablo ","lastName":"Ramos Madrigal","email":"pab123758@gmail.com","username":"Pablo","password":"Rts$122w","birhtdate":"2\/10\/1998","acountNumber":" CR 12313446646446466494","validuntil":"2\/10\/2026","cvc":"123","address":"haahahhahaahah","phone":" +506 12345678"}
 
+Cliente: {"firstName":"test ","lastName ":"test apellido ","email ":"pab123758@gmail.com","username":"Test ","password":"Rts$122w","birhtdate":"2\/10\/2001","acountNumber":" CR 12345678912345678912","validuntil":"2\/10\/2033","cvc":"123","houseprefence":"Moderna","hobbie":"Comer jdjdjdjdddjdjdjdjdjdjdjdjxnnxnxhxhxhxhxhxhhxhxhxhxhxhxhxhxhhxhxhchchhcbcbxhchdhdbdhdbhdbdhdhdhdhdhdhhdhdhdhfhdhhfhfhfhfhfhfhhfhfhfhfhfhfhfhfbhch","transport ":"Bicicleta","address ":"shshsjsjs","phone":" +506 12345678"}
+
+Cliente: {"firstName":"Prueba nombre ","lastName":"Prueba apellido ","email":"pab123758@gmail.com","username":"Prueba","password":"Rts$122w","birhtdate":"3\/10\/2001","acountNumber":" CR 12345678912345678912","validuntil":"3\/10\/2031","cvc":"123","address":"Una dirección cualquiera pero tiene un límite de 150 carácteres dbdbdbbdhdhdhdhshdhhdhdhdhdhdhdhdhdhhdhdhdhxhdhxhxhhxhxhxhxhxhxhxhhxhxhxhxhxhxhbxbxhxh","phone":" +506 12345678"}
+
+Cliente: {"firstName":"Nombre Guest ","lastName ":"apellido Guest ","email ":"pab123758@gmail.com","username":"Usuario Guest ","password":"Rts$122w","birhtdate":"3\/10\/1995","acountNumber":" CR 12345678912345678912","validuntil":"3\/10\/2031","cvc":"541","houseprefence":"Mansion","hobbie":"igual que anterior 150 carácteres es el máximo ","transport ":"Mansion","address ":"shehdhshshh","phone":" +506 85641237"}
+
+Cliente: {"firstName":"Pablo ","lastName ":"Ramos Madrigal","email ":"pab123758@gmail.com","username":"test user ","password":"Rts$122w","birhtdate":"3\/10\/2004","acountNumber":" CR 12345678904646466464","validuntil":"3\/10\/2032","cvc":"123","houseprefence":"Rustic","hobbie":"son máximo 150 carácteres hddhshhshshshshhshsbsbsbsbdhhdbdhdhdhdbxbbxhxbxhxxhdhhdhdhdhdhdhdhhdhdhdhdhdhdhxhdhhdhdhdhdhdhdhdhdhhdhdhdhdhdhdhdhhxhxhxhxh","transport ":"Car","address ":"shshshhshshs","phone":" +506 12345678"}
+
+Cliente: {"firstName":"user","lastName ":"shdhd","email ":"pab123758@gmail.com","username":"user","password":"Rts$122w","birhtdate":"3\/10\/2031","acountNumber":" CR 12345679798898956161","validuntil":"3\/10\/2031","cvc":"122","houseprefence":"Mansion","hobbie":"son 150 carácter maximo hdhdhdjdhdbdbbdhdjdhdhdhdhnxnxxbxbxbxbxbbxhxbxbxbxbbxbdbdbdbdbxbxbxbbxhxhxhdhdhbxbdbdhdhdhdhhdbdbdjdjjdjdndndndjjdhdjdhdbdbdbb","transport ":"Motorbike","address ":"lo mismo que la vez pasada ","phone":" +506 12345678"}
+
+Cliente: {"firstName":"test","lastName":"test","email":"pab123758@gmail.com","username":"test ","password":"Rts$122w","birhtdate":"3\/10\/1997","acountNumber":" CR 12356464649898895655","validuntil":"3\/10\/2041","cvc":"126","address":"son igual a 150 carácteres","phone":" +506 46466464"}
+
+Cliente: {"action":"registro","firstName":"r","lastName":"r","email":"r","username":"e","password":"Rm@123456888","birhtdate":"7\/10\/2024","acountNumber":" CR 888","validuntil":"7\/10\/2024","cvc":"123","houseprefence":"Mansion","hobbie":"x","transport":"Bicicleta","address":"ejejej","phone":" +506 8"}
+
+Cliente: {"action":"registro","firstName":"r","lastName":"r","email":"r","username":"e","password":"x@R12345","birhtdate":"7\/10\/2024","acountNumber":" CR 888","validuntil":"7\/10\/2024","cvc":"123","houseprefence":"Mansion","hobbie":"x","transport":"Bicicleta","address":"ejejej","phone":" +506 8"}
+
+Cliente: {"action":"registro","firstName":"e","lastName":"r","email":"d","username":"e","password":"x@R12345","birhtdate":"7\/10\/2024","acountNumber":" CR 48488448588585585580","validuntil":"7\/10\/2024","cvc":"144","houseprefence":"Mansion","hobbie":"r","transport":"Moto","address":"a,","phone":" +506 85584"}
+
+Cliente: {"action":"registro","firstName":"r","lastName":"r","email":"e","username":"ra","password":"x@R12345","birhtdate":"7\/10\/2024","acountNumber":" CR 1","validuntil":"7\/10\/2024","cvc":"125","houseprefence":"Mansion","hobbie":"xeexrx","transport":"Carro","address":"szszszez","phone":" +506 12345678"}
+
+Cliente: {"action":"registro","firstName":"r","lastName":"r","email":"e","username":"raw","password":"x@R12345","birhtdate":"7\/10\/2024","acountNumber":" CR 1","validuntil":"7\/10\/2024","cvc":"125","houseprefence":"Mansion","hobbie":"xeexrx","transport":"Carro","address":"szszszez","phone":" +506 87909744"}
+
+Cliente: {"action":"registro","firstName":"r","lastName":"r","email":"e","username":"raww","password":"x@R12345","birhtdate":"7\/10\/2024","acountNumber":" CR 1","validuntil":"7\/10\/2024","cvc":"125","houseprefence":"Mansion","hobbie":"xeexrx","transport":"Carro","address":"szszszez","phone":" +506 87905555"}
+
+Cliente: {"action":"registro","firstName":"w","lastName":"w","email":"w","username":"w","password":"x@R123456","birhtdate":"12\/9\/2006","acountNumber":" CR 123456789122","validuntil":"14\/10\/2024","cvc":"123","houseprefence":"Moderna","hobbie":"qhw","transport":"Buseta","address":"a","phone":" +506 12345678"}
+
+Cliente: {"action":"registro","firstName":"q","lastName":"q","email":"q","username":"q","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 123456789123","validuntil":"14\/10\/2024","cvc":"125","houseprefence":"Rústica","hobbie":"w","transport":"Buseta","address":"dr","phone":" +506 12345678"}
+
+Cliente: {"action":"registro","firstName":"x@R12345","lastName":"x@R12345","email":"x@R12345","username":"x@R12345","password":"x@R12345","birhtdate":"2\/10\/2006","acountNumber":" CR 123456789123","validuntil":"14\/10\/2024","cvc":"123","address":"aa","phone":" +506 12345678"}
+
+Cliente: {"action":"registro","firstName":"s","lastName":"d","email":"d","username":"plabra1","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 123464646464","validuntil":"14\/10\/2024","cvc":"126","houseprefence":"Mansion","hobbie":"a","transport":"Buseta","address":"a","phone":" +506 12345678"}
+
+Cliente: {"action":"registro","firstName":"s","lastName":"d","email":"d","username":"Palabra","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 123464646464","validuntil":"14\/10\/2024","cvc":"126","houseprefence":"Mansion","hobbie":"a","transport":"Buseta","address":"a","phone":" +506 12345678"}
+
+Cliente: {"action":"registro","firstName":"a","lastName":"a","email":"pab123758@gmail.com","username":"a","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 123456789123","validuntil":"14\/10\/2024","cvc":"123","houseprefence":"Mansion","hobbie":"a","transport":"Moto","address":"a","phone":" +506 12345678"}
+
+Cliente: {"action":"registro","firstName":"z","lastName":"x","email":"d","username":"picha ","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 464664649494","validuntil":"14\/10\/2024","cvc":"464","houseprefence":"Mansion","hobbie":"s","transport":"Buseta","address":"a","phone":" +506 12346464"}
+
+Cliente: {"action":"registro","firstName":"Pablo Ramos Madriga","lastName":"Ramos Madriga","email":"pab123758@gmail.com","username":"HIJUEPUT@","password":"x@R12345","birhtdate":"7\/10\/2006","acountNumber":" CR 676464646464","validuntil":"14\/10\/2024","cvc":"466","address":"zbzhdbzhzh","phone":" +506 46464646"}
+

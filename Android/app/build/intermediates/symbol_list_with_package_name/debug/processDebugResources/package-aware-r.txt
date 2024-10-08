@@ -3214,8 +3214,6 @@ id bounceEnd
 id bounceStart
 id buttonPanel
 id button_res
-id button_subir_foto
-id button_subir_foto_propietario
 id button_tomar_foto
 id button_tomar_foto_propietario
 id cache_measures
@@ -3245,6 +3243,7 @@ id confimar_cotra_propietario
 id confirm_button
 id constraint
 id container
+id container_image
 id content
 id contentPanel
 id contiguous
@@ -3588,7 +3587,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id textView2
 id text_input_end_icon
 id text_input_error_icon
@@ -3895,7 +3893,10 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string completa_cuenta
+string completa_cvc
 string completa_los_campos
+string completa_telefono
 string confirmar_contrasena
 string contrasena
 string correo
@@ -4015,6 +4016,7 @@ string mtrl_timepicker_confirm
 string nombre
 string nombre_de_usuario
 string numero_de_cuenta
+string palabras_obsecenas
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

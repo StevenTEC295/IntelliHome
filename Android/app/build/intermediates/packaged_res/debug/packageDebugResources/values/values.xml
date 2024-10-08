@@ -6,9 +6,10 @@
         <item>Mansion</item>
     </string-array>
     <string-array name="transport_types">
-        <item>Carro</item>
+        <item>Carro de cajón</item>
+        <item>Sedán</item>
+        <item>Buseta</item>
         <item>Moto</item>
-        <item>Bicicleta</item>
     </string-array>
     <color name="beige_arena">#A09575</color>
     <color name="black">#FF000000</color>
@@ -21,7 +22,10 @@
     <string name="Tomar_Foto">Tomar Foto</string>
     <string name="apellidos">Apellidos </string>
     <string name="app_name">IntelliHome</string>
+    <string name="completa_cuenta">El número de cuenta debe tener exactamente 12 dígitos</string>
+    <string name="completa_cvc">El CVC debe tener 3 dígitos</string>
     <string name="completa_los_campos">Completa todos los campos</string>
+    <string name="completa_telefono">El número de télefono debe tener exactamente 8 dígitos</string>
     <string name="confirmar_contrasena">Confirmar Contraseña </string>
     <string name="contrasena">Contraseña </string>
     <string name="correo">Correo </string>
@@ -33,6 +37,7 @@
     <string name="nombre">Nombre </string>
     <string name="nombre_de_usuario">Nombre de Usuario</string>
     <string name="numero_de_cuenta">CR Número de cuenta IBAN</string>
+    <string name="palabras_obsecenas">El nombre de usuario contiene palabras inapropiadas</string>
     <string name="registrarse">Registrarse</string>
     <string name="registro_Huésped">Registro Huésped</string>
     <string name="registro_Propietario">Registro Propietario</string>

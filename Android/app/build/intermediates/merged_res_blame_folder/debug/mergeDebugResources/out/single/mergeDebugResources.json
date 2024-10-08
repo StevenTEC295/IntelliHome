@@ -80,8 +80,8 @@
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\icono_perfil.png"
     },
     {
-        "merged": "com.example.intellihome.app-debug-31:/layout_activity_registro.xml.flat",
-        "source": "com.example.intellihome.app-main-33:/layout/activity_registro.xml"
+        "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_camara.png.flat",
+        "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\camara.png"
     },
     {
         "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\layout_activity_registro_propietario.xml.flat",
@@ -118,9 +118,5 @@
     {
         "merged": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-debug-31:\\drawable_tarjetas_credito.png.flat",
         "source": "C:\\Users\\pablo\\.gradle\\daemon\\8.7\\com.example.intellihome.app-main-33:\\drawable\\tarjetas_credito.png"
-    },
-    {
-        "merged": "com.example.intellihome.app-debug-31:/drawable_camara.png.flat",
-        "source": "com.example.intellihome.app-main-33:/drawable/camara.png"
     }
 ]

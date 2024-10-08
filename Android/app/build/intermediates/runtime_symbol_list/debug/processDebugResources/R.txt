@@ -3213,8 +3213,6 @@ int id bounceEnd 0x7f090066
 int id bounceStart 0x7f090067
 int id buttonPanel 0x7f090068
 int id button_res 0x7f090069
-int id button_subir_foto 0x7f09006a
-int id button_subir_foto_propietario 0x7f09006b
 int id button_tomar_foto 0x7f09006c
 int id button_tomar_foto_propietario 0x7f09006d
 int id cache_measures 0x7f09006e
@@ -3244,6 +3242,7 @@ int id confimar_cotra_propietario 0x7f090085
 int id confirm_button 0x7f090086
 int id constraint 0x7f090087
 int id container 0x7f090088
+int id container_image 0x7f090218
 int id content 0x7f090089
 int id contentPanel 0x7f09008a
 int id contiguous 0x7f09008b
@@ -3587,7 +3586,6 @@ int id textSpacerNoButtons 0x7f0901dc
 int id textSpacerNoTitle 0x7f0901dd
 int id textStart 0x7f0901de
 int id textTop 0x7f0901df
-int id textView 0x7f0901e0
 int id textView2 0x7f0901e1
 int id text_input_end_icon 0x7f0901e2
 int id text_input_error_icon 0x7f0901e3
@@ -3894,7 +3892,10 @@ int string character_counter_content_description 0x7f100032
 int string character_counter_overflowed_content_description 0x7f100033
 int string character_counter_pattern 0x7f100034
 int string clear_text_end_icon_content_description 0x7f100035
+int string completa_cuenta 0x7f1000c3
+int string completa_cvc 0x7f1000c4
 int string completa_los_campos 0x7f1000c1
+int string completa_telefono 0x7f1000c2
 int string confirmar_contrasena 0x7f100036
 int string contrasena 0x7f100037
 int string correo 0x7f100038
@@ -4014,6 +4015,7 @@ int string mtrl_timepicker_confirm 0x7f1000a9
 int string nombre 0x7f1000aa
 int string nombre_de_usuario 0x7f1000ab
 int string numero_de_cuenta 0x7f1000ac
+int string palabras_obsecenas 0x7f1000c5
 int string password_toggle_content_description 0x7f1000ad
 int string path_password_eye 0x7f1000ae
 int string path_password_eye_mask_strike_through 0x7f1000af

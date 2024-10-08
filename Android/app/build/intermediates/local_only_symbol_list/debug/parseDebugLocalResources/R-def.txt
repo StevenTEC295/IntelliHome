@@ -23,11 +23,10 @@ id boton_cambiar_ingles
 id boton_registro_huesped
 id boton_registro_propietario
 id button_res
-id button_subir_foto
-id button_subir_foto_propietario
 id button_tomar_foto
 id button_tomar_foto_propietario
 id confimar_cotra_propietario
+id container_image
 id contrasena_huesped
 id contrasena_huesped_confirmar
 id cotra_propietario
@@ -47,7 +46,6 @@ id imageView
 id main
 id phonenumber
 id selectDate
-id textView
 id textView2
 layout activity_login
 layout activity_registro
@@ -63,7 +61,10 @@ string Mensaje_exito_registro
 string Tomar_Foto
 string apellidos
 string app_name
+string completa_cuenta
+string completa_cvc
 string completa_los_campos
+string completa_telefono
 string confirmar_contrasena
 string contrasena
 string correo
@@ -75,6 +76,7 @@ string item_label
 string nombre
 string nombre_de_usuario
 string numero_de_cuenta
+string palabras_obsecenas
 string registrarse
 string registro_Huésped
 string registro_Propietario
